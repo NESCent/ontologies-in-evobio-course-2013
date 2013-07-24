@@ -1,0 +1,51 @@
+--- Instructor Lead ---
+
+= Collaborative Editing =
+
+In this exercise we're going to collaboratively edit a file to build a "pass it on" story.
+
+* To start move back to your root of your svn repository, likely the "src" directory, and do 'svn up' to make sure you have the latest snapshot.
+* In /user/shared find 'story.txt' and open it in your text editor.
+* We'll take turns editing the the file.   When it is your turn, svn up to get the latest version, add a line, save the file, and commit it with
+
+   svn ci -m '<your name> edits'
+
+The instructors will then illustrate the following:
+
+= Reverting = 
+
+After a number of edits the editorial team has noticed the story has gone off the deep (PATO:0001596) end and needs to be returned to a prior state.
+
+* The prior states can be viewed on the Google code site (illustrate link)
+* They can also be checked out:
+
+   svn co -r 4
+
+Then committed back.
+
+= Resolving conflicts = 
+
+* What happens when too people edit the file in a conflicting way?  
+* Illustrate by having two people commit at the same time
+
+  svn resolved story.txt
+
+* Point out svn resolve (theirs/yours)
+
+= Advanced Topics =
+
+- Given available time the instructors will go over these topics
+
+- Gotchas - There are several:
+  - API vs. filesystem
+    ! copy, paste, rm
+    - .svn files
+    - corruption
+ 
+- And time permitting (it won't):
+  - Visualizing diffs using SmartSVN
+  - Resolving conflicts
+  - Branching/Tagging
+  - Merging
+  - Alternatives to SVN
+
