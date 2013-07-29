@@ -1,0 +1,44 @@
+-Floral Phylogenetics Project
+
+Will Ontologies work?
+Yes:
+1. Matching different terminology for same structures
+2. Relationships between concepts can identify errors / misinterpretations
+3. Well-defined domain (Flora of given region)
+4. 
+5. 
+
+No:
+1. Hybridization?
+2. Large domain, potential for difficulties in management
+3. Identifying relationships across the domain?
+4. 
+5.
+
+
+Current Data structures:
+Relational Database
+
+
+
+-Lepidopteran Project
+
+Will Ontologies work?
+Yes:
+1. Existing Ontologies may provide starting point 
+2. Standardize terms
+3.  
+ 
+
+No:
+1. Defining the Domain Boundaries
+2. 
+3. 
+
+
+Current Data structures:
+Relational Databases
+
+
+
+
