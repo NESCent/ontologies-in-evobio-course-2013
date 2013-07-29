@@ -5,7 +5,7 @@ Yes:
 1. Matching different terminology for same structures
 2. Relationships between concepts can identify errors / misinterpretations
 3. Well-defined domain (Flora of given region)
-4. 
+4. Authority/Expertise 
 5. 
 
 No:
@@ -26,8 +26,8 @@ Relational Database
 Will Ontologies work?
 Yes:
 1. Existing Ontologies may provide starting point 
-2. Standardize terms
-3.  
+2. Coordination & Community
+3. Expert authorities contributing
  
 
 No:
