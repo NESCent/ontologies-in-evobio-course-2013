@@ -1,6 +1,6 @@
 
 
-1) Will ontologies work for you?
+A) Will ontologies work for you?
 
 Yes: 
 1) Extraction of anatomical characters from literature (CS).
@@ -12,6 +12,6 @@ No:
 2) Only if the semantics aren’t well understood yet.
 3) Unclear how it won’t...I need to learn more (CS).
 
-2) What data structures are current or potential proxies for ontologies in your world?
+B) What data structures are current or potential proxies for ontologies in your world?
 
-
+1) Just about any controlled vocabulary is a prime candidate for an ontology. Example: A controlled vocabulary for the Darwin Core term preparations and the relationships between the terms in the controlled vocabulary.
