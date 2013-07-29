@@ -19,7 +19,7 @@ After a number of edits the editorial team has noticed the story has gone off th
 * The prior states can be viewed on the Google code site (illustrate link)
 * They can also be checked out:
 
-   svn co -r 4
+   svn up -r 4
 
 Then committed back.
 
