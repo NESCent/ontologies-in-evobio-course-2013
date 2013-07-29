@@ -1,18 +1,17 @@
-<!-- Tufts VUE 3.2.2 concept-map (New Map.vue) 2013-07-29 -->
+<!-- Tufts VUE 3.2.2 concept-map (LJ.vue) 2013-07-29 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Mon Jul 29 14:57:06 EDT 2013 by admin on platform Mac OS X 10.8.3 in JVM 1.6.0_45-b06-451-11M4406 -->
+<!-- Do Not Remove: Saved date Mon Jul 29 15:16:20 EDT 2013 by admin on platform Mac OS X 10.8.3 in JVM 1.6.0_45-b06-451-11M4406 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="none" ID="0" label="New Map.vue"
+    xsi:noNamespaceSchemaLocation="none" ID="0" label="LJ.vue"
     created="1375122923862" x="0.0" y="0.0" width="1.4E-45"
     height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1375124226378"
-        spec="/Users/admin/Documents/SVN/user/Laura/New Map.vue"
-        type="1" xsi:type="URLResource">
-        <title>New Map.vue</title>
-        <property key="File" value="/Users/admin/Documents/SVN/user/Laura/New Map.vue"/>
+    <resource referenceCreated="1375125380544" size="22092"
+        spec="/Users/admin/Documents/SVN/user/shared/LJ.vue" type="1" xsi:type="URLResource">
+        <title>LJ.vue</title>
+        <property key="File" value="/Users/admin/Documents/SVN/user/shared/LJ.vue"/>
     </resource>
     <fillColor>#FFFFFF</fillColor>
     <strokeColor>#404040</strokeColor>
@@ -246,7 +245,7 @@
         <ID1 xsi:type="node">32</ID1>
         <ID2 xsi:type="node">13</ID2>
     </child>
-    <child ID="34" label="is a" layerID="1" created="1375123782761"
+    <child ID="34" label="part of" layerID="1" created="1375123782761"
         x="910.76086" y="209.5" width="36.47827" height="25.0"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
@@ -259,7 +258,7 @@
         <ID1 xsi:type="node">17</ID1>
         <ID2 xsi:type="node">32</ID2>
     </child>
-    <child ID="35" label="is a" layerID="1" created="1375123788993"
+    <child ID="35" label="part of" layerID="1" created="1375123788993"
         x="850.86804" y="209.5" width="36.763855" height="51.0"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
@@ -352,7 +351,7 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="44" label="is a" layerID="1" created="1375124060975"
-        x="400.5" y="147.5" width="18.0" height="47.0" strokeWidth="1.0"
+        x="401.0" y="147.5" width="17.0" height="47.0" strokeWidth="1.0"
         autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
@@ -373,7 +372,7 @@
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1375122923861"
             x="0.0" y="0.0" width="1.4E-45" height="1.4E-45"
-            strokeWidth="0.0" autoSized="false" currentIndex="-1" open="true">
+            strokeWidth="0.0" autoSized="false" currentIndex="0" open="true">
             <strokeColor>#B3993333</strokeColor>
             <textColor>#000000</textColor>
             <font>SansSerif-plain-14</font>
@@ -420,6 +419,6 @@
     </PathwayList>
     <date>2013-07-29</date>
     <modelVersion>6</modelVersion>
-    <saveLocation>/Users/admin/Documents/SVN/user/Laura</saveLocation>
-    <saveFile>/Users/admin/Documents/SVN/user/Laura/New Map.vue</saveFile>
+    <saveLocation>/Users/admin/Documents/SVN/user/shared</saveLocation>
+    <saveFile>/Users/admin/Documents/SVN/user/shared/LJ.vue</saveFile>
 </LW-MAP>
