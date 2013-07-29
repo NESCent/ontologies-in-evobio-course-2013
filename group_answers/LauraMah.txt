@@ -1,0 +1,11 @@
+Yes - When describing function 
+Yes - When describing location
+No - When describing shapes
+Yes- When describing ontogenies 
+Yes- When describing gene expressions
+
+Domain - Skeleton
+
+No- If you are describing habitat, feeding preferences such as behavior domain
+
+Current Ontology Resource - Phenoscape, TAO, Zfin
