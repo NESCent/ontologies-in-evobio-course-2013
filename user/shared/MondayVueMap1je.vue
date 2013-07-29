@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.2.2 concept-map (MondayVueMap1je.vue) 2013-07-29 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/C:/Program%20Files%20(x86)/VUE/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Mon Jul 29 15:03:58 EDT 2013 by Elise on platform Windows 7 6.1 in JVM 1.7.0_21-b11 -->
+<!-- Do Not Remove: Saved date Mon Jul 29 15:07:40 EDT 2013 by Elise on platform Windows 7 6.1 in JVM 1.7.0_21-b11 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="MondayVueMap1je.vue" created="1375122236070" x="0.0" y="0.0"
     width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1375124638369" size="32215"
+    <resource referenceCreated="1375124860345" size="34235"
         spec="C:\Users\Elise\src\nescent-anatomy-course\user\shared\MondayVueMap1je.vue"
         type="1" xsi:type="URLResource">
         <title>MondayVueMap1je.vue</title>
@@ -389,8 +389,8 @@
         <ID1 xsi:type="node">25</ID1>
         <ID2 xsi:type="node">7</ID2>
     </child>
-    <child ID="46" label="is_a" layerID="1" created="1375123387169"
-        x="539.8922" y="-79.5" width="33.7843" height="38.99994"
+    <child ID="46" label="part_of" layerID="1" created="1375123387169"
+        x="538.78436" y="-79.5" width="36.0" height="38.99994"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
@@ -402,7 +402,7 @@
         <ID1 xsi:type="node">15</ID1>
         <ID2 xsi:type="node">6</ID2>
     </child>
-    <child ID="47" label="is_a" layerID="1" created="1375123390464"
+    <child ID="47" label="part_of" layerID="1" created="1375123390464"
         x="621.34534" y="-79.5" width="63.057556" height="39.0"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
@@ -572,7 +572,7 @@
         <ID2 xsi:type="node">32</ID2>
     </child>
     <child ID="68" label="part_of" layerID="1" created="1375124565139"
-        x="115.36389" y="-61.0" width="36.0" height="181.5"
+        x="115.86389" y="-61.0" width="35.0" height="181.5"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
@@ -602,7 +602,7 @@
         <URIString>http://vue.tufts.edu/rdf/resource/2bb4bdea0a00051f016fd60262a663f9</URIString>
     </layer>
     <userZoom>1.0</userZoom>
-    <userOrigin x="-560.5" y="-316.5"/>
+    <userOrigin x="-97.5" y="-266.0"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1375122236070"
