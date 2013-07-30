@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.2.2 concept-map (edaphora_col.vue) 2013-07-30 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/home/cweiland/jar/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Tue Jul 30 16:37:05 EDT 2013 by cweiland on platform Linux 3.2.0-49-generic in JVM 1.7.0_25-b15 -->
+<!-- Do Not Remove: Saved date Tue Jul 30 16:56:33 EDT 2013 by cweiland on platform Linux 3.2.0-49-generic in JVM 1.7.0_25-b15 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0" label="edaphora_col.vue"
     created="1375190338261" x="0.0" y="0.0" width="1.4E-45"
     height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1375216625466" size="23292"
+    <resource referenceCreated="1375217793794" size="23292"
         spec="/home/cweiland/nescent_course/nescent-anatomy-course/user/claus/edaphora_col.vue"
         type="1" xsi:type="URLResource">
         <title>edaphora_col.vue</title>
@@ -368,16 +368,6 @@
         <point2 x="1035.7861" y="440.5"/>
         <ID1 xsi:type="node">31</ID1>
         <ID2 xsi:type="node">42</ID2>
-    </child>
-    <child ID="44" label="test svn&#xa;" layerID="1"
-        created="1375216527105" x="103.0" y="643.75" width="180.0"
-        height="73.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
-        <strokeColor>#000000</strokeColor>
-        <textColor>#000000</textColor>
-        <font>Arial-plain-12</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/314b39867f0001011fb4a983afb51bea</URIString>
-        <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <layer ID="1" label="Layer 1" created="1375190338269" x="0.0"
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
