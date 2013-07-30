@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.2.2 concept-map (edaphora_col.vue) 2013-07-30 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/home/cweiland/jar/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Tue Jul 30 16:56:33 EDT 2013 by cweiland on platform Linux 3.2.0-49-generic in JVM 1.7.0_25-b15 -->
+<!-- Do Not Remove: Saved date Tue Jul 30 17:04:39 EDT 2013 by cweiland on platform Linux 3.2.0-49-generic in JVM 1.7.0_25-b15 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0" label="edaphora_col.vue"
     created="1375190338261" x="0.0" y="0.0" width="1.4E-45"
     height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1375217793794" size="23292"
+    <resource referenceCreated="1375218279436" size="22566"
         spec="/home/cweiland/nescent_course/nescent-anatomy-course/user/claus/edaphora_col.vue"
         type="1" xsi:type="URLResource">
         <title>edaphora_col.vue</title>
@@ -21,7 +21,7 @@
     <URIString>http://vue.tufts.edu/rdf/resource/305ba3ec7f000101000d6f49eb169256</URIString>
     <child ID="6" label="Ecotype" layerID="1" created="1375196369335"
         x="452.0" y="370.0" width="149.0" height="67.0"
-        strokeWidth="1.0" strokeStyle="4" autoSized="false" xsi:type="node">
+        strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -31,7 +31,7 @@
     </child>
     <child ID="7" label="generalist" layerID="1" created="1375196399156"
         x="314.0" y="493.0" width="87.0" height="50.0" strokeWidth="1.0"
-        strokeStyle="4" autoSized="false" xsi:type="node">
+        autoSized="false" xsi:type="node">
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -41,7 +41,7 @@
     </child>
     <child ID="8" label="avoid_wetness&#xa;" layerID="1"
         created="1375196403638" x="464.0" y="490.0" width="94.0"
-        height="38.0" strokeWidth="1.0" strokeStyle="4" autoSized="true" xsi:type="node">
+        height="38.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -51,7 +51,7 @@
     </child>
     <child ID="9" label="mesophil" layerID="1" created="1375196408059"
         x="615.0" y="487.0" width="93.0" height="50.0" strokeWidth="1.0"
-        strokeStyle="4" autoSized="false" xsi:type="node">
+        autoSized="false" xsi:type="node">
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -61,7 +61,7 @@
     </child>
     <child ID="10" label="flood_intolerant&#xa;" layerID="1"
         created="1375196417517" x="399.0" y="574.0" width="96.0"
-        height="38.0" strokeWidth="1.0" strokeStyle="4" autoSized="true" xsi:type="node">
+        height="38.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -71,8 +71,7 @@
     </child>
     <child ID="11" label="hygrotolerant" layerID="1"
         created="1375196425030" x="554.0" y="573.0" width="105.0"
-        height="51.0" strokeWidth="1.0" strokeStyle="4"
-        autoSized="false" xsi:type="node">
+        height="51.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -235,7 +234,7 @@
     </child>
     <child ID="31" label="Habitat" layerID="1" created="1375205889377"
         x="859.0" y="475.5" width="171.0" height="85.0"
-        strokeWidth="1.0" strokeStyle="4" autoSized="false" xsi:type="node">
+        strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -245,8 +244,7 @@
     </child>
     <child ID="33" label="floodplain T1" layerID="1"
         created="1375205965463" x="783.0" y="615.5" width="96.0"
-        height="54.0" strokeWidth="1.0" strokeStyle="4"
-        autoSized="false" xsi:type="node">
+        height="54.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -256,8 +254,7 @@
     </child>
     <child ID="34" label="floodplain T2" layerID="1"
         created="1375205969864" x="921.0" y="615.5" width="82.0"
-        height="52.0" strokeWidth="1.0" strokeStyle="4"
-        autoSized="false" xsi:type="node">
+        height="52.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -267,8 +264,7 @@
     </child>
     <child ID="35" label="floodplain T3" layerID="1"
         created="1375205974856" x="1034.0" y="617.5" width="82.0"
-        height="50.0" strokeWidth="1.0" strokeStyle="4"
-        autoSized="false" xsi:type="node">
+        height="50.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -347,7 +343,7 @@
         <ID1 xsi:type="node">40</ID1>
     </child>
     <child ID="42" label="Area_Code" layerID="1" created="1375213319924"
-        x="1018.0" y="387.5" width="98.0" height="53.0"
+        x="983.0" y="286.375" width="98.0" height="48.125"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -356,17 +352,17 @@
         <URIString>http://vue.tufts.edu/rdf/resource/3130d8587f00010156de398ac5700040</URIString>
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
-    <child ID="43" label="referencedBy" layerID="1"
-        created="1375213369060" x="981.6731" y="440.0" width="67.0"
-        height="36.0" strokeWidth="1.0" autoSized="false"
+    <child ID="45" label="referencedBy" layerID="1"
+        created="1375218261132" x="920.53986" y="226.5" width="79.96045"
+        height="60.375" strokeWidth="1.0" autoSized="false"
         controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/3130d85a7f00010156de398a03ae4e74</URIString>
-        <point1 x="994.56006" y="475.5"/>
-        <point2 x="1035.7861" y="440.5"/>
-        <ID1 xsi:type="node">31</ID1>
+        <URIString>http://vue.tufts.edu/rdf/resource/3165a4327f0001014cc6376a2077119c</URIString>
+        <point1 x="921.03986" y="227.0"/>
+        <point2 x="1000.0003" y="286.375"/>
+        <ID1 xsi:type="node">17</ID1>
         <ID2 xsi:type="node">42</ID2>
     </child>
     <layer ID="1" label="Layer 1" created="1375190338269" x="0.0"
