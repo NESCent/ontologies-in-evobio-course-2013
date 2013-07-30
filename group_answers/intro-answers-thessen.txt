@@ -1,0 +1,11 @@
+Will an ontology work for me?
+Yes
+1. Relatively controlled vocabulary for subgroups, like a genus for example
+2. Pool of expert and authoritative users that coordinate informally in small groups. Experts tend to specialize in small taxonomic groups like genera or families.
+3. Boundaries can be set to limit content and set achievable goals, such as limiting to a specific taxon.
+No
+1. Vocabularies can change across the entire group (microbial eukaryotes versus dinoflagellates versus a specific genus). The terms applicable to one genus may not apply to another.
+2. Coordination between and among experts and users is poor, especially between subgroups. There is no formalized structure for collaboration.
+3. Much is still unknown about microbial eukaryotes, which leads to instability in the knowledge structure as new discoveries are made. Large upheavals in taxonomic and phylogenetic structure happen relatively frequently.
+What data structures can be used as proxies for ontologies?
+There are some lists available in publications. There are some small parts of existing ontologies that might be useful. No good central source.
