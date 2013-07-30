@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.2.2 concept-map (edaphora_col.vue) 2013-07-30 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/home/cweiland/jar/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Tue Jul 30 17:04:39 EDT 2013 by cweiland on platform Linux 3.2.0-49-generic in JVM 1.7.0_25-b15 -->
+<!-- Do Not Remove: Saved date Tue Jul 30 17:30:14 EDT 2013 by cweiland on platform Linux 3.2.0-49-generic in JVM 1.7.0_25-b15 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0" label="edaphora_col.vue"
     created="1375190338261" x="0.0" y="0.0" width="1.4E-45"
     height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1375218279436" size="22566"
+    <resource referenceCreated="1375219814558" size="22578"
         spec="/home/cweiland/nescent_course/nescent-anatomy-course/user/claus/edaphora_col.vue"
         type="1" xsi:type="URLResource">
         <title>edaphora_col.vue</title>
@@ -22,7 +22,7 @@
     <child ID="6" label="Ecotype" layerID="1" created="1375196369335"
         x="452.0" y="370.0" width="149.0" height="67.0"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#D0D0D0</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -32,7 +32,7 @@
     <child ID="7" label="generalist" layerID="1" created="1375196399156"
         x="314.0" y="493.0" width="87.0" height="50.0" strokeWidth="1.0"
         autoSized="false" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#FFFFFF</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -42,7 +42,7 @@
     <child ID="8" label="avoid_wetness&#xa;" layerID="1"
         created="1375196403638" x="464.0" y="490.0" width="94.0"
         height="38.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#FFFFFF</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -52,7 +52,7 @@
     <child ID="9" label="mesophil" layerID="1" created="1375196408059"
         x="615.0" y="487.0" width="93.0" height="50.0" strokeWidth="1.0"
         autoSized="false" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#FFFFFF</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -62,7 +62,7 @@
     <child ID="10" label="flood_intolerant&#xa;" layerID="1"
         created="1375196417517" x="399.0" y="574.0" width="96.0"
         height="38.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#FFFFFF</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -72,7 +72,7 @@
     <child ID="11" label="hygrotolerant" layerID="1"
         created="1375196425030" x="554.0" y="573.0" width="105.0"
         height="51.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#FFFFFF</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -143,7 +143,7 @@
     <child ID="17" label="Record" layerID="1" created="1375200140919"
         x="799.0" y="154.0" width="147.0" height="73.0"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#D0D0D0</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -153,7 +153,7 @@
     <child ID="18" label="year xs:integer&#xa;" layerID="1"
         created="1375200159500" x="701.0" y="285.0" width="90.0"
         height="50.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#FFFFFF</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -163,7 +163,7 @@
     <child ID="19" label="count xs:integer&#xa;" layerID="1"
         created="1375200171291" x="835.0" y="284.0" width="97.0"
         height="50.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#FFFFFF</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -173,7 +173,7 @@
     <child ID="20" label="Taxon" layerID="1" created="1375200176668"
         x="146.0" y="146.0" width="126.0" height="86.0"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#D0D0D0</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -235,7 +235,7 @@
     <child ID="31" label="Habitat" layerID="1" created="1375205889377"
         x="859.0" y="475.5" width="171.0" height="85.0"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#D0D0D0</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -245,7 +245,7 @@
     <child ID="33" label="floodplain T1" layerID="1"
         created="1375205965463" x="783.0" y="615.5" width="96.0"
         height="54.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#FFFFFF</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -255,7 +255,7 @@
     <child ID="34" label="floodplain T2" layerID="1"
         created="1375205969864" x="921.0" y="615.5" width="82.0"
         height="52.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#FFFFFF</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -265,7 +265,7 @@
     <child ID="35" label="floodplain T3" layerID="1"
         created="1375205974856" x="1034.0" y="617.5" width="82.0"
         height="50.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#FFFFFF</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -324,7 +324,7 @@
     <child ID="40" label="hygrophil" layerID="1" created="1375213243509"
         x="172.0" y="432.5" width="99.0" height="49.0" strokeWidth="1.0"
         autoSized="false" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#FFFFFF</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -345,7 +345,7 @@
     <child ID="42" label="Area_Code" layerID="1" created="1375213319924"
         x="983.0" y="286.375" width="98.0" height="48.125"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
-        <fillColor>#F1A83E</fillColor>
+        <fillColor>#FFFFFF</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -369,8 +369,8 @@
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/305ba4047f000101000d6f49fede72d6</URIString>
     </layer>
-    <userZoom>1.0</userZoom>
-    <userOrigin x="-14.0" y="-14.0"/>
+    <userZoom>0.75</userZoom>
+    <userOrigin x="-121.875" y="-16.59375"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1375190338260"
