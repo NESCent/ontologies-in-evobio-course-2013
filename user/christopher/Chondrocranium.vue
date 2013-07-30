@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.2.2 concept-map (Chondrocranium.vue) 2013-07-30 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Tue Jul 30 13:01:38 EDT 2013 by christophersheil on platform Mac OS X 10.8.4 in JVM 1.6.0_51-b11-457-11M4509 -->
+<!-- Do Not Remove: Saved date Tue Jul 30 13:11:35 EDT 2013 by christophersheil on platform Mac OS X 10.8.4 in JVM 1.6.0_51-b11-457-11M4509 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="Chondrocranium.vue" created="1375143971220" x="0.0" y="0.0"
     width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1375203698897" size="110490"
+    <resource referenceCreated="1375204295578" size="110497"
         spec="/Users/christophersheil/SVN/NescentOntologyCourse/user/christopher/Chondrocranium.vue"
         type="1" xsi:type="URLResource">
         <title>Chondrocranium.vue</title>
@@ -1728,7 +1728,7 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="185" label="anatomical entity" layerID="1"
-        created="1375194347931" x="-175.80014" y="-51.832497"
+        created="1375194347931" x="-269.80014" y="-63.832497"
         width="124.0" height="45.99997" strokeWidth="1.0"
         autoSized="false" xsi:type="node">
         <fillColor>#AF55F4</fillColor>
@@ -1771,42 +1771,42 @@
         <ID1 xsi:type="node">84</ID1>
         <ID2 xsi:type="node">158</ID2>
     </child>
-    <child ID="256" layerID="1" created="1375194949588" x="-175.11194"
-        y="-6.3325195" width="50.123734" height="97.666626"
+    <child ID="256" layerID="1" created="1375194949588" x="-205.10292"
+        y="-18.33252" width="16.105682" height="109.666626"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/3002c9fd0a000525003492fce4d9d40b</URIString>
-        <point1 x="-174.61194" y="90.83411"/>
-        <point2 x="-125.488205" y="-5.8325195"/>
+        <point1 x="-189.49724" y="90.83411"/>
+        <point2 x="-204.60292" y="-17.83252"/>
         <ID1 xsi:type="node">186</ID1>
         <ID2 xsi:type="node">185</ID2>
     </child>
-    <child ID="257" layerID="1" created="1375194952121" x="-52.30014"
-        y="-53.630127" width="110.0266" height="16.489323"
+    <child ID="257" layerID="1" created="1375194952121" x="-146.30014"
+        y="-58.715477" width="200.26245" height="14.257824"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/3002c9fd0a000525003492fc1ff984cf</URIString>
-        <point1 x="57.226463" y="-53.130127"/>
-        <point2 x="-51.80014" y="-37.640804"/>
+        <point1 x="53.462307" y="-58.215473"/>
+        <point2 x="-145.80014" y="-44.95765"/>
         <ID1 xsi:type="node">187</ID1>
         <ID2 xsi:type="node">185</ID2>
     </child>
-    <child ID="259" layerID="1" created="1375194988577" x="-109.36148"
-        y="-114.99921" width="14.456116" height="63.666718"
+    <child ID="259" layerID="1" created="1375194988577" x="-180.38292"
+        y="-114.99921" width="62.498955" height="51.666718"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/3002c9fd0a000525003492fc57f9f221</URIString>
-        <point1 x="-108.86148" y="-51.83249"/>
-        <point2 x="-95.405365" y="-114.49921"/>
+        <point1 x="-179.88292" y="-63.83249"/>
+        <point2 x="-118.383965" y="-114.49921"/>
         <ID1 xsi:type="node">185</ID1>
         <ID2 xsi:type="node">184</ID2>
     </child>
