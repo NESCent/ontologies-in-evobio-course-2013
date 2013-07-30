@@ -1,0 +1,41 @@
+GBIF: http://www.gbif.org/
+1) No
+2)
+3)
+4) Ontologies could be used in the data indexing process to provide standardized terms for verbatim terms, to help searches on the data access portal.
+
+Morphbank: http://morphbank.net
+1) No
+2)
+3)
+4) Could use PATO (Phenotypic Quality Ontology) for search term resolution (synonyms).
+
+Dryad: http://datadryad.org/
+1) No
+2)
+3)
+4) SPAR (Semantic Publishing and Referencing Ontology) could be used for purely citation-based information. But that doesn't help with finding content. Ontologies could help find literature based on terms that weren't necessarily the ones used as keywords for the publications.
+
+Ontobee: www.ontobee.org
+1) yes
+2) OBO Ontologies? A large list of ontologies are used. Evidence is the SPARQL query capability.
+3) OBO Foundry
+4) 
+
+Bioportal: bioportal.bioontology.org
+1) Yes
+2) OBO Ontologies. Evidence comes from the documentation of the Annotator Tab.
+3) OBO Foundry
+4)
+
+BHL: http://www.biodiversitylibrary.org/
+1) No
+2)
+3)
+4) SPAR (Semantic Publishing and Referencing Ontology) could be used for purely citation-based information. But that doesn't help with finding content. Ontologies could help find literature based on terms that weren't necessarily the ones used as keywords for the publications.
+
+EOL: http://eol.org
+1) No
+2)
+3)
+4) It looks like they can do all they need without an ontology. However, if they wanted to enable the discovery of taxa by their characteristics, ontologies (e.g., ENVO, PATO) would be useful. 
