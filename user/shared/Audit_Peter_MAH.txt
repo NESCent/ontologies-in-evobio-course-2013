@@ -1,0 +1,49 @@
+Morphbank: http://morphbank.net
+
+1) Does this site use one or more ontologies?
+No 
+4) How would this site benefit from the integration of an ontology?  Which specifically?
+It will facilitate searches and make the results more comprehensive. 
+Anatomy Ontology
+
+http://datadryad.org/
+1) Does this site use one or more ontologies?
+No
+4) How would this site benefit from the integration of an ontology?  Which specifically?
+This site constitute a repository for data and it will not need the implementation of an ontology
+
+ 
+http://zfin.org/
+1) Does this site use one or more ontologies?
+Yes
+2) Which ontologies are used?
+Gene and anatomy ontology
+3) What community related resources available for people seeking to use or contribute to the underlying ontology?  For example are there mailing lists, annotation guidelines, standards, or help wikis?
+wiki
+
+http://www.informatics.jax.org/
+1) Does this site use one or more ontologies?
+Yes
+2) Which ontologies are used?
+Gene Ontology
+3) What community related resources available for people seeking to use or contribute to the underlying ontology?  For example are there mailing lists, annotation guidelines, standards, or help wikis?
+Email list, prototype tools, glossary, community links
+
+http://www.biodiversitylibrary.org/
+1) Does this site use one or more ontologies?
+yes	
+2) Which ontologies are used?
+Ontology for Media Resources
+3) What community related resources available for people seeking to use or contribute to the underlying ontology?  For example are there mailing lists, annotation guidelines, standards, or help wikis?
+Mailing list
+4) How would this site benefit from the integration of an ontology?  Which specifically?
+
+
+http://www.gbif.org/
+1) Does this site use one or more ontologies?
+No
+2) Which ontologies are used?
+3) What community related resources available for people seeking to use or contribute to the underlying ontology?  For example are there mailing lists, annotation guidelines, standards, or help wikis?
+ 
+4) How would this site benefit from the integration of an ontology?  Which specifically?
+It will avoid the overlapping of information between the database
