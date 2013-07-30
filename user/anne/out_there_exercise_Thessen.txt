@@ -1,0 +1,23 @@
+BHL: http://www.biodiversitylibrary.org/
+1: Yes
+2: Dublin Core
+3: Website with an active community and extensive documentation through DCMI
+Dryad: http://datadryad.org/
+1: Yes
+2: Dublin Core and an "in house" ontology
+3: Documentation wiki with examples, a helpdesk, an ideas forum and a mailing list
+GBIF: http://www.gbif.org/
+1: Yes
+2: Darwin Core Archive
+3: Website with links to documentation and a wiki. I think there is a mailing list, but its not obvious how to get on it.
+Morphbank: http://morphbank.net
+1: I think no, but its hard to tell
+4: They appear to have their own suite of identifiers that are not connected to other ontologies. Annotating images with ontology terms would make it easier for users to find what they need.
+TAIR: http://www.arabidopsis.org/
+1: Yes
+2: Gene Ontology and Plant Ontology
+3: GO has a website with documentation, a browser, an FAQ, social networking, a helpdesk and a place to submit annotations. The plant ontology has a website with search/browse, documentation, tutorials, a way to request new terms and a mailing list.
+MGI: http://www.informatics.jax.org/
+1: Yes
+2: Mammalian Phenotype Ontology, Gene Ontology and pathway ontology
+3: MPO has a browser, mailing list and way to submit new terms. GO as above. Pathway ontology has browse/search through the rat genome database which has a contact us email form.
