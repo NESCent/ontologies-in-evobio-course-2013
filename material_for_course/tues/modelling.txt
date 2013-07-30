@@ -1,0 +1,18 @@
+
+
+== Planning Your Project ==
+
+* The goal here is to refine your ontology related project (which may or may not be an ontology)
+* During this period an instuctor(s) will visit with you for 5-10 minutes to discuss/overview what you are interested in working on.
+* If you are waiting for an instructor:
+  * Gather existing files, databases, websites, schemas, journal articles, or other examplar data that you could use to describe your area of research to the instructors or others. 
+  * You may wish to find and summarize an existing "branch" within an ontology that you would like further explained or clarified.
+  * You may wish to prepare any specific question you have for instructors/others.
+  * This is a also a good time to tackle a nagging technical problem.
+* As part of refinement we'd like you to build a .vue file using the class format Jim presented.  Even if your project is not defining an ontology, you can us Vue to outline the conceptual components of your work.  
+* If your project is to integrate with existing ontologies first define the scope of the questions/ontology/research that you'll be working on _then_ you may wish to go and explore ontologies in OntoBee or elsewhere
+* You're welcome to work in partners, but remember each of you will present some aspect of this work on Friday.
+* Challenge yourself, if you are technical learn some biology, if you are a biologist, dive into the logic of ontologies.
+* At 9:45 we'll break for group discussion.
+
+ 
