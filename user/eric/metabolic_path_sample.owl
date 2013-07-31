@@ -1,0 +1,684 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#"
+     xml:base="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.1.1.37 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.1.1.37"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.1.1.41 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.1.1.41"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.1.41 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.1.41"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.1.42 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.1.42"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.2.4.1 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.2.4.1"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.2.4.2 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.2.4.2"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.3.99.1 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.3.99.1"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.8.1.4 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.8.1.4"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#2.3.1.12 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#2.3.1.12"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#2.3.1.61 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#2.3.1.61"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#2.3.3.1 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#2.3.3.1"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#4.1.1.49 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#4.1.1.49"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#4.2.1.2 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#4.2.1.2"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#4.2.1.3 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#4.2.1.3"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#6.2.1.4 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#6.2.1.4"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#6.4.1.1 -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#6.4.1.1"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#connect -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#connect"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed_both -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed_both"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#label -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6f00a000521014ab7cdc747daec -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6f00a000521014ab7cdc747daec">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbohydrate metabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f70a000521014ab7cd84ef48b2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6f10a000521014ab7cd44a550ef -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6f10a000521014ab7cd44a550ef">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycolysis pathway</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f00a000521014ab7cdc747daec"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3006c3490a000521014ab7cd0436c665"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#connect"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citric acid pathway</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f00a000521014ab7cdc747daec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6f70a000521014ab7cd84ef48b2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6f70a000521014ab7cd84ef48b2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6f90a000521014ab7cd34c43e66 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6f90a000521014ab7cd34c43e66">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phosphoenol pyruvate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f10a000521014ab7cd44a550ef"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#4.1.1.49"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6fa0a000521014ab7cde3e233e9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6fa0a000521014ab7cde3e233e9 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6fa0a000521014ab7cde3e233e9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxaloacetate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed_both"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3006c3570a000521014ab7cd33884b0b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed_both"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3006c3580a000521014ab7cdb7c6ec35"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#2.3.3.1"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b70b0a000521014ab7cd307e97ac"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6fb0a000521014ab7cd9204f201 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6fb0a000521014ab7cd9204f201">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(S) - Malate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.1.1.37"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6fa0a000521014ab7cde3e233e9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6fc0a000521014ab7cdc32f09b3 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6fc0a000521014ab7cdc32f09b3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fumarate</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#4.2.1.2"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6fb0a000521014ab7cd9204f201"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#label"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6fd0a000521014ab7cd43808dc2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6fd0a000521014ab7cd43808dc2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Succinate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.3.99.1"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6fc0a000521014ab7cdc32f09b3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b6fe0a000521014ab7cd3ae30043 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b6fe0a000521014ab7cd3ae30043">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Succinyl-CoA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#6.2.1.4"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6fd0a000521014ab7cd43808dc2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b7070a000521014ab7cd5c246666 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b7070a000521014ab7cd5c246666">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S-Succinyl-dihydrolipoamide-E</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#2.3.1.61"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6fe0a000521014ab7cd3ae30043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b7080a000521014ab7cd31c4ffbf -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b7080a000521014ab7cd31c4ffbf">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2- Oxoglutarate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed_both"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3014dfa50a000521014ab7cd03485b0a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed_both"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3014dfa50a000521014ab7cd591861ca"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed_both"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3006c3570a000521014ab7cd33884b0b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.2.4.2"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b7080a000521014ab7cdd4de5bcf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b7080a000521014ab7cdd4de5bcf -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b7080a000521014ab7cdd4de5bcf">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 - Carboxy-1-hydroypropyl-ThPP</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.2.4.2"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b7070a000521014ab7cd5c246666"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b7090a000521014ab7cd2dfa5376 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b7090a000521014ab7cd2dfa5376">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxalosuccinate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.1.41"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b7080a000521014ab7cd31c4ffbf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b70a0a000521014ab7cd18982bb8 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b70a0a000521014ab7cd18982bb8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isocitrate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.1.1.41"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b7080a000521014ab7cd31c4ffbf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.1.42"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b7090a000521014ab7cd2dfa5376"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b70a0a000521014ab7cd9088042a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b70a0a000521014ab7cd9088042a">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cis-Aconitate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#4.2.1.3"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b70a0a000521014ab7cd18982bb8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd4b70b0a000521014ab7cd307e97ac -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd4b70b0a000521014ab7cd307e97ac">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citrate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#4.2.1.3"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b70a0a000521014ab7cd9088042a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#2.3.3.1"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6fa0a000521014ab7cde3e233e9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c3490a000521014ab7cd0436c665 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c3490a000521014ab7cd0436c665">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyruvate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#6.4.1.1"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6fa0a000521014ab7cde3e233e9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.2.4.1"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3006c34b0a000521014ab7cdec5ab287"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c34a0a000521014ab7cd3311a386 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c34a0a000521014ab7cd3311a386">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acetyl-CoA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3006c3530a000521014ab7cd5e941a38"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3006c3540a000521014ab7cdc2d77cfe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c34b0a000521014ab7cd4953c693 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c34b0a000521014ab7cd4953c693">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S-Acetyldihydrolipoamide-E</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#2.3.1.12"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3006c34a0a000521014ab7cd3311a386"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c34b0a000521014ab7cdec5ab287 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c34b0a000521014ab7cdec5ab287">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-Hydroxyethyl-ThPP</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.2.4.1"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3006c34b0a000521014ab7cd4953c693"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c34c0a000521014ab7cd0b50fac2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c34c0a000521014ab7cd0b50fac2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dihydrolipoamide-E</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#1.8.1.4"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3006c34c0a000521014ab7cd66d5689c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c34c0a000521014ab7cd66d5689c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c34c0a000521014ab7cd66d5689c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoamide-E</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f20a000521014ab7cdc615964d"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c34e0a000521014ab7cdf09b2b79 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c34e0a000521014ab7cdf09b2b79">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatty acid metabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3006c3520a000521014ab7cd9faba6cf"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3006c34a0a000521014ab7cd3311a386"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c34f0a000521014ab7cd06f7ce68 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c34f0a000521014ab7cd06f7ce68">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tyrosine metabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3006c3500a000521014ab7cd0236c0d1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6fc0a000521014ab7cdc32f09b3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c34f0a000521014ab7cd1e7a40ad -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c34f0a000521014ab7cd1e7a40ad">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arginie and proline metabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3006c3500a000521014ab7cd0236c0d1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6fc0a000521014ab7cdc32f09b3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c3500a000521014ab7cd0236c0d1 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c3500a000521014ab7cd0236c0d1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amino acid metabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f70a000521014ab7cd84ef48b2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c3520a000521014ab7cd9faba6cf -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c3520a000521014ab7cd9faba6cf">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipid metabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f70a000521014ab7cd84ef48b2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c3530a000521014ab7cd5e941a38 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c3530a000521014ab7cd5e941a38">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatty acid biosynthesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3006c3520a000521014ab7cd9faba6cf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c3540a000521014ab7cdc2d77cfe -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c3540a000521014ab7cdc2d77cfe">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatty acid elongation in mitochondria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3006c3520a000521014ab7cd9faba6cf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c3560a000521014ab7cded238e79 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c3560a000521014ab7cded238e79">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Val, Leu, &amp; Ile degradation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3006c3500a000521014ab7cd0236c0d1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3006c34a0a000521014ab7cd3311a386"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6ef0a000521014ab7cdaab6e418#feed"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6fe0a000521014ab7cd3ae30043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c3570a000521014ab7cd33884b0b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c3570a000521014ab7cd33884b0b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alanine, aspartate and glutamate metabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3006c3500a000521014ab7cd0236c0d1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3006c3580a000521014ab7cdb7c6ec35 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3006c3580a000521014ab7cdb7c6ec35">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glyoxylate and dicarboxylate metabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3006c3500a000521014ab7cd0236c0d1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3014dfa50a000521014ab7cd03485b0a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3014dfa50a000521014ab7cd03485b0a">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ascorbate and aldarate metabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f00a000521014ab7cdc747daec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3014dfa50a000521014ab7cd591861ca -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3014dfa50a000521014ab7cd591861ca">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-Gln &amp; D-Glu metabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3014dfa50a000521014ab7cd6b72d6ee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3014dfa50a000521014ab7cd6b72d6ee -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3014dfa50a000521014ab7cd6b72d6ee">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolism of other amino acids</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd4b6f70a000521014ab7cd84ef48b2"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.3-SNAPSHOT) http://owlapi.sourceforge.net -->
+
