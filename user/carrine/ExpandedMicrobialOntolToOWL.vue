@@ -1,18 +1,18 @@
-<!-- Tufts VUE 3.2.2 concept-map (ExpandedMicrobialOntol2.vue) 2013-07-31 -->
+<!-- Tufts VUE 3.2.2 concept-map (ExpandedMicrobialOntolToOWL.vue) 2013-07-31 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Wed Jul 31 08:48:19 EDT 2013 by geomicro on platform Mac OS X 10.8.3 in JVM 1.6.0_45-b06-451-11M4406 -->
+<!-- Do Not Remove: Saved date Wed Jul 31 09:05:00 EDT 2013 by geomicro on platform Mac OS X 10.8.3 in JVM 1.6.0_45-b06-451-11M4406 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
-    label="ExpandedMicrobialOntol2.vue" created="1375146405112" x="0.0"
-    y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1375274900038" size="357361"
-        spec="/Users/geomicro/Desktop/NSF AVATOL Project/Ontology Workshop/ExpandedMicrobialOntol2.vue"
+    label="ExpandedMicrobialOntolToOWL.vue" created="1375146405112"
+    x="0.0" y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
+    <resource referenceCreated="1375275900207" size="349609"
+        spec="/Users/geomicro/src/nescent-anatomy-course/user/carrine/ExpandedMicrobialOntolToOWL.vue"
         type="1" xsi:type="URLResource">
-        <title>ExpandedMicrobialOntol2.vue</title>
-        <property key="File" value="/Users/geomicro/Desktop/NSF AVATOL Project/Ontology Workshop/ExpandedMicrobialOntol2.vue"/>
+        <title>ExpandedMicrobialOntolToOWL.vue</title>
+        <property key="File" value="/Users/geomicro/src/nescent-anatomy-course/user/carrine/ExpandedMicrobialOntolToOWL.vue"/>
     </resource>
     <fillColor>#FFFFFF</fillColor>
     <strokeColor>#404040</strokeColor>
@@ -6829,11 +6829,61 @@
         <ID1 xsi:type="node">662</ID1>
         <ID2 xsi:type="node">486</ID2>
     </child>
+    <child ID="664" label="MicrobialThing" layerID="1"
+        created="1375275874976" x="-11696.484" y="-3507.655"
+        width="472.96713" height="236.48357" strokeWidth="1.0"
+        autoSized="false" xsi:type="node">
+        <fillColor>#C6E8FF</fillColor>
+        <strokeColor>#000000</strokeColor>
+        <textColor>#000000</textColor>
+        <font>Arial-plain-14</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/34d4dda10a00051e0080cf99b207b898</URIString>
+        <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
+    </child>
+    <child ID="665" layerID="1" created="1375275890583" x="-12582.193"
+        y="-3271.6719" width="970.96387" height="756.8906"
+        strokeWidth="1.0" autoSized="false" controlCount="0"
+        arrowState="2" xsi:type="link">
+        <strokeColor>#404040</strokeColor>
+        <textColor>#404040</textColor>
+        <font>Arial-plain-14</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/34d4dda10a00051e0080cf9985c110f8</URIString>
+        <point1 x="-12581.693" y="-2515.2812"/>
+        <point2 x="-11611.7295" y="-3271.1719"/>
+        <ID1 xsi:type="node">495</ID1>
+        <ID2 xsi:type="node">664</ID2>
+    </child>
+    <child ID="666" layerID="1" created="1375275894116" x="-11549.695"
+        y="-3271.6562" width="85.19824" height="1994.4062"
+        strokeWidth="1.0" autoSized="false" controlCount="0"
+        arrowState="2" xsi:type="link">
+        <strokeColor>#404040</strokeColor>
+        <textColor>#404040</textColor>
+        <font>Arial-plain-14</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/34d4dda10a00051e0080cf995821a258</URIString>
+        <point1 x="-11549.194" y="-1277.75"/>
+        <point2 x="-11464.996" y="-3271.1562"/>
+        <ID1 xsi:type="node">144</ID1>
+        <ID2 xsi:type="node">664</ID2>
+    </child>
+    <child ID="667" layerID="1" created="1375275897036" x="-11224.018"
+        y="-3348.8042" width="3067.7007" height="534.1001"
+        strokeWidth="1.0" autoSized="false" controlCount="0"
+        arrowState="2" xsi:type="link">
+        <strokeColor>#404040</strokeColor>
+        <textColor>#404040</textColor>
+        <font>Arial-plain-14</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/34d4dda20a00051e0080cf99fdf8a9b9</URIString>
+        <point1 x="-8156.817" y="-2815.204"/>
+        <point2 x="-11223.518" y="-3348.3042"/>
+        <ID1 xsi:type="node">506</ID1>
+        <ID2 xsi:type="node">664</ID2>
+    </child>
     <layer ID="1" label="Layer 1" created="1375146405119" x="0.0"
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/2d511603c0a80014013e65778617107b</URIString>
     </layer>
-    <userZoom>0.25</userZoom>
+    <userZoom>0.1480018234310895</userZoom>
     <userOrigin x="-3419.9126" y="-970.7797"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
@@ -6886,6 +6936,6 @@
     </PathwayList>
     <date>2013-07-29</date>
     <modelVersion>6</modelVersion>
-    <saveLocation>/Users/geomicro/Desktop/NSF AVATOL Project/Ontology Workshop</saveLocation>
-    <saveFile>/Users/geomicro/Desktop/NSF AVATOL Project/Ontology Workshop/ExpandedMicrobialOntol2.vue</saveFile>
+    <saveLocation>/Users/geomicro/src/nescent-anatomy-course/user/carrine</saveLocation>
+    <saveFile>/Users/geomicro/src/nescent-anatomy-course/user/carrine/ExpandedMicrobialOntolToOWL.vue</saveFile>
 </LW-MAP>
