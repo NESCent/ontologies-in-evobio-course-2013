@@ -22,18 +22,55 @@ The goals of these exercises are the following:
 == Sites ==
 
 BHL: http://www.biodiversitylibrary.org/
+- is an ontology used anywhere?
+
 Bioportal: bioportal.bioontology.org
+- a triplestore/SPARQL
+
 Dryad: http://datadryad.org/
+- a hodgepodge of data - benefit from an ontology?
+- biological database?
+- purpose is a 
+
 Flybase: http://flybase.org/ 
-GBIF: http://www.gbif.org/
-MGI: http://www.informatics.jax.org/
-Morphbank: http://morphbank.net
-NIF: http://www.neuinfo.org/
-OLS: http://www.ebi.ac.uk/ontology-lookup/
-Ontobee: www.ontobee.org
-TAIR: http://www.arabidopsis.org/
+- tag their data, ontology used to retrieve data by tag 
+
 Virtual Fly Brain: http://www.virtualflybrain.org
+- uses same ontologys as Flybase - interface better integrated
+
+GBIF: http://www.gbif.org/
+- no ontology 
+
+MGI: http://www.informatics.jax.org/
+- has ontology 
+
+Morphbank: http://morphbank.net
+- no ontlogy
+
+NIF: http://www.neuinfo.org/
+- yes, have own ontology
+- do explore this - aggregate hundreds of databases
+
+OLS: http://www.ebi.ac.uk/ontology-lookup/
+- all ontologies
+
+Ontobee: www.ontobee.org
+- use a triplestore
+
+TAIR: http://www.arabidopsis.org/
+- gene, plant ontology
+
 ZFIN: http://zfin.org/
+- yes 
+
+Ontologies for Citations
+- percentages of credit to authors
+- BIBO
+- VIVO / ISF
+- Library/Marc
+- Provo (Provenance ontology) -> data sources that publication/attribution (has a large community)
+
+OpenContext
 
 == Exercise ==
 
@@ -80,6 +117,7 @@ Bonus/other questions we asked, but you won't have time to cover:
 * Is it readily apparent that benefits/functionality are being derived from ontologies when they are being used?
 * What is the site that best exemplifies ontology integration, why?
 * Do sites that use ontologies serve large or small communities?  Are generalizations possible?
+
 * [OTHERS]
 
 

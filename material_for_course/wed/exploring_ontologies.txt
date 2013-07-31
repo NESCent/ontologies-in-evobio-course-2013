@@ -1,0 +1,84 @@
+
+
+== Exploring "Supporting" Ontologies ==
+
+This is a instructor driven overview of ontologies that are typically used in conjunction with other ontologies (imported), or that synthesize and summarize across a broad swath of other ontologies.
+
+You can follow along by loading the ontology from a URL.  Open Protege, then File-Open From URL.  Paste in the IRI of the ontology.  Use http://http://www.ontobee.org/ to quickly navigate and find the IRI for a given ontology.  Alternately you could browse the corresponding ontology online, at ontobee, or perhaps http://www.ebi.ac.uk/ontology-lookup/ or http://www.obofoundry.org/ or http://bioportal.bioontology.org/ontologies.  
+
+As we go through the ontologies keep in mind the following question:
+
+* What need is this ontology addressing? Remember, it takes a lot of time and effort to build ontologies, they should address a need.
+
+
+(MH) I think we can answer these same questions for each:
+- what: What do the classes representing reality? 
+- how: How are the classes and properties, or ontology as a whole, intended to be used?
+- who: Who is this ontology designed for?
+
+
+
+
+== Upper Level Ontologies ==
+
+BFO
+* gotchas: two versions, new version very complex
+
+CARO
+* gotchas: two versions, new version not very visible, old version very old
+
+Evidence code ontology (EVO)
+* gotchas: conflation of evidence with assays, results, and other investigative techniques. Poor inferred classification makes it difficult to choose correct EC.
+
+Information Artifact Ontology
+* gotchas: very complex, not clear how to use.
+
+=== Building phenotypes ===
+
+PATO
+
+* what: these are the "adjectives"
+* gotchas: funny ontology - these are dependent continuants, and reified relationships
+
+Spatial
+
+*gotchas: funny ontology - these are modifiers for anatomical terms, and a lot of properties
+
+
+== Nomenclature and Names ==
+
+TaxRank
+
+Rank
+
+Nomenclature Ontology (NOMEN) 
+- what: a classification of name strings that seeks to encode (some) rules of nomenclature
+- gotchas: not released, talk to Matt
+
+NCBI Taxon
+- gotchas: 
+
+== "Synthesizing" Ontologies ==
+
+Uberon
+- gotchas: complex combination of asserted MI and inferred inheritance. Complex annotation strategies. Extensive Linking to other ontologies.
+
+GO
+- gotchas: complex combination of asserted MI and inferred inheritance. Very rich in some areas, not in others. "Cut off" at sub cellular anatomy in CC branch, but has multi-species processes in BP branch. MFs not really functions.
+
+== Phylogeny ==
+ 
+homology_ontology (HOM)
+
+== Specimens ==
+
+Biological Collections Ontology [covered thursday]
+
+== Know Voids/Gaps ==
+
+* A behavioural ontology (why might this be the case)
+* A Reference ontology (for example how can I define the difference b/w a Book and a Journal Article)
+
+Not sure what is meant by these two (MH) we have ontologies that address both of these, albeit not well in the former case, and in the latter case, not well in OBO land but lots else out there.
+
+

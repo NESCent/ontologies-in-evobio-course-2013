@@ -1,0 +1,28 @@
+= Limits to Ontologies = 
+
+You've built an ontology, so you are (should be) planning to use the reasoning/inference that is possible.  What exactly can you do, and not do, and where might you have to plan to set asside time to reason with ontology?
+
+Expressivity (evolutionary scientists works with complex data)
+
+* OWL Profiles - http://www.w3.org/TR/owl2-profiles/ 
+* Open world assumptions (some head is shorter than some thorax, could be any head, not just the one in the species/speciemn of interest)
+* Quantitative limits (?) 
+* (?) Difficulties capturing multiple axes - can be done, but takes thinking - how to reason across time and sex ('show me all the males with blue heads that are 4 years old') 
+
+Immediate (how are you slowed down within the immediate workbench you're utilizing)
+
+* Even with a relatively simple ontology if you include individuals reasoning can be slow (Jim's family KB)
+* If you instantiate a dataset, load it into Protege and reason over it, it will not necessarily tell you how a particular instance is causing a inconsistence.  {Derived from the bootstrapping names idea discussion with Jim}
+* It's possible to add relatively few expressions (e.g. regex pattern) and significantly slow down reasoning process. 
+* Many relatively important ontologies are large, try for example, to 'Open from URI' the NCBI Taxonomy ontology
+
+Mid-long term
+
+* You've made a set of semantic phenotypes and published them, where can they be deposited (so that they can be reasoned over by others, or further appended).
+* Can you reason in real time over any reasonable sized set of data? Build times/memory requirements. 
+
+
+--- previous notes ---
+
+Logical Limits/Compute aspects/Expression Limits/Temporal Reasoning/
+Reasoning performance, family KB

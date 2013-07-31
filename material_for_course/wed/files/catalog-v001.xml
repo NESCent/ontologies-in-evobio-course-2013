@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1374873281691" name="http://purl.obolibrary.org/obo/go.owl" uri="disjoint-expressions/bad-chromosome-2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1374873281691" name="http://purl.obolibrary.org/obo/go/subsets/goslim_aspergillus.owl" uri="external/go.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1374873281691" name="duplicate:http://purl.obolibrary.org/obo/test/chromosome-parts.owl" uri="chromosome-parts-interim.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1374873281691" name="duplicate:http://purl.obolibrary.org/obo/test/chromosome-parts.owl" uri="chromosome-parts_interim_MH.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1374873281691" name="shadowed:http://purl.obolibrary.org/obo/go.owl" uri="basic-disjoint/bad-chromosome.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1374873281691" name="shadowed:http://purl.obolibrary.org/obo/go.owl" uri="basic-classification/ubiq-ligase-complex.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1374873281691" name="shadowed:http://purl.obolibrary.org/obo/go.owl" uri="basic-restriction/er-sec-complex.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1374873281691" name="shadowed:http://purl.obolibrary.org/obo/test/chromosome-parts.owl" uri="basic-subclass/chromosome-parts.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1374873281691" name="shadowed:http://purl.obolibrary.org/obo/test/chromosome-parts.owl" uri="basic-restriction/chromosome-parts-interim.owl"/>
+    </group>
+</catalog>
