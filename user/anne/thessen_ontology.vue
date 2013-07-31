@@ -1,18 +1,18 @@
-<!-- Tufts VUE 3.2.2 concept-map (Thessen_ontology.vue) 2013-07-30 -->
+<!-- Tufts VUE 3.2.2 concept-map (thessen_ontology.vue) 2013-07-31 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Tue Jul 30 10:22:19 EDT 2013 by athessen on platform Mac OS X 10.7.5 in JVM 1.6.0_51-b11-457-11M4509 -->
+<!-- Do Not Remove: Saved date Wed Jul 31 11:32:44 EDT 2013 by eriksegerdell on platform Mac OS X 10.6.8 in JVM 1.6.0_51-b11-457-10M4509 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
-    label="Thessen_ontology.vue" created="1375127206148" x="0.0" y="0.0"
+    label="thessen_ontology.vue" created="1375127206148" x="0.0" y="0.0"
     width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1375194139420" size="36223"
-        spec="/Users/athessen/source/nescent-anatomy-course/user/anne/Thessen_ontology.vue"
+    <resource referenceCreated="1375284764197" size="37398"
+        spec="/Users/eriksegerdell/Documents/VUE-to-OWL/vue/thessen_ontology.vue"
         type="1" xsi:type="URLResource">
-        <title>Thessen_ontology.vue</title>
-        <property key="File" value="/Users/athessen/source/nescent-anatomy-course/user/anne/Thessen_ontology.vue"/>
+        <title>thessen_ontology.vue</title>
+        <property key="File" value="/Users/eriksegerdell/Documents/VUE-to-OWL/vue/thessen_ontology.vue"/>
     </resource>
     <fillColor>#FFFFFF</fillColor>
     <strokeColor>#404040</strokeColor>
@@ -50,7 +50,7 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="9" label="is_a" layerID="1" created="1375128454748"
-        x="348.29422" y="210.5" width="24.0" height="64.0"
+        x="348.79422" y="210.5" width="23.0" height="64.0"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
@@ -63,15 +63,17 @@
         <ID2 xsi:type="node">6</ID2>
     </child>
     <child ID="10" label="synonym" layerID="1" created="1375128461699"
-        x="344.0" y="360.5" width="50.0" height="46.0" strokeWidth="1.0"
-        autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
+        x="341.70892" y="358.5" width="49.0" height="48.0"
+        strokeWidth="1.0" autoSized="false" controlCount="0"
+        arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
         <URIString>http://vue.tufts.edu/rdf/resource/2fc74c7dc0a801060060e277ccc49c7d</URIString>
-        <point1 x="369.0" y="406.0"/>
-        <point2 x="369.0" y="361.0"/>
+        <point1 x="367.1735" y="406.0"/>
+        <point2 x="365.2444" y="359.0"/>
         <ID1 xsi:type="node">8</ID1>
+        <ID2 xsi:type="node">7</ID2>
     </child>
     <child ID="11" label="dinoflagellate" layerID="1"
         created="1375128576938" x="561.0" y="197.0" width="135.0"
@@ -94,7 +96,7 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="14" label="epicone" layerID="1" created="1375128944495"
-        x="630.0" y="318.0" width="142.0" height="70.0"
+        x="636.06226" y="297.38828" width="142.0" height="70.0"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#E6F7FD</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -134,15 +136,15 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="18" label="part_of" layerID="1" created="1375128995010"
-        x="771.5" y="317.6631" width="59.0" height="16.663055"
+        x="777.56226" y="309.37042" width="52.937744" height="14.0"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
         <URIString>http://vue.tufts.edu/rdf/resource/2fc74c7fc0a801060060e2776754c7c5</URIString>
-        <point1 x="830.0" y="318.16312"/>
-        <point2 x="772.0" y="333.82617"/>
+        <point1 x="830.0" y="312.08075"/>
+        <point2 x="778.06226" y="320.6601"/>
         <ID1 xsi:type="node">16</ID1>
         <ID2 xsi:type="node">14</ID2>
     </child>
@@ -170,7 +172,7 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="21" label="connected to" layerID="1"
-        created="1375129023642" x="916.49036" y="330.5" width="71.0"
+        created="1375129023642" x="916.99036" y="330.5" width="70.0"
         height="54.0" strokeWidth="1.0" autoSized="false"
         controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
@@ -233,7 +235,7 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="27" label="connected_to" layerID="1"
-        created="1375129756001" x="917.2244" y="544.5" width="75.0"
+        created="1375129756001" x="917.7244" y="544.5" width="74.0"
         height="58.0" strokeWidth="1.0" autoSized="false"
         controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
@@ -256,15 +258,15 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="29" label="part_of" layerID="1" created="1375129922788"
-        x="594.0" y="358.35876" width="39.0" height="14.0"
+        x="593.92456" y="348.26584" width="42.637756" height="14.0"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
         <URIString>http://vue.tufts.edu/rdf/resource/2fc74c88c0a801060060e2775e86c0c0</URIString>
-        <point1 x="630.0" y="363.02826"/>
-        <point2 x="597.0" y="367.68927"/>
+        <point1 x="636.06226" y="350.0786"/>
+        <point2 x="594.4245" y="360.45306"/>
         <ID1 xsi:type="node">14</ID1>
         <ID2 xsi:type="node">28</ID2>
     </child>
@@ -305,7 +307,7 @@
         <ID2 xsi:type="node">31</ID2>
     </child>
     <child ID="33" label="contained_in" layerID="1"
-        created="1375130159881" x="56.10656" y="498.50003" width="72.0"
+        created="1375130159881" x="56.60656" y="498.50003" width="71.0"
         height="65.99994" strokeWidth="1.0" autoSized="false"
         controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
@@ -397,7 +399,7 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="41" label="part_of" layerID="1" created="1375130568265"
-        x="830.49036" y="544.5" width="39.0" height="53.0"
+        x="830.99036" y="544.5" width="38.0" height="53.0"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
@@ -502,15 +504,15 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="51" label="is_a" layerID="1" created="1375190840149"
-        x="771.5" y="257.87946" width="209.42621" height="71.57825"
+        x="777.56226" y="254.35225" width="198.54498" height="58.03647"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
         <URIString>http://vue.tufts.edu/rdf/resource/2fc74c90c0a801060060e2772dbfaf48</URIString>
-        <point1 x="772.0" y="328.9577"/>
-        <point2 x="980.4262" y="258.37946"/>
+        <point1 x="778.06226" y="311.88873"/>
+        <point2 x="975.60724" y="254.85226"/>
         <ID1 xsi:type="node">14</ID1>
         <ID2 xsi:type="node">50</ID2>
     </child>
@@ -603,7 +605,7 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="59" label="is_a" layerID="1" created="1375191060574"
-        x="84.83769" y="80.5" width="24.0" height="31.0"
+        x="85.33769" y="80.5" width="23.0" height="31.0"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
@@ -652,7 +654,7 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="63" label="synonym" layerID="1" created="1375191146514"
-        x="141.87057" y="324.08508" width="50.0" height="29.414917"
+        x="142.37057" y="324.08508" width="49.0" height="29.414917"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
@@ -668,13 +670,13 @@
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/2bf87d4cc0a801060060e2770fa465ac</URIString>
     </layer>
-    <userZoom>1.0</userZoom>
+    <userZoom>0.824773413897281</userZoom>
     <userOrigin x="-14.5" y="-14.0"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1375127206147"
             x="0.0" y="0.0" width="1.4E-45" height="1.4E-45"
-            strokeWidth="0.0" autoSized="false" currentIndex="-1" open="true">
+            strokeWidth="0.0" autoSized="false" currentIndex="0" open="true">
             <strokeColor>#B3CC33CC</strokeColor>
             <textColor>#000000</textColor>
             <font>SansSerif-plain-14</font>
@@ -721,6 +723,6 @@
     </PathwayList>
     <date>2013-07-29</date>
     <modelVersion>6</modelVersion>
-    <saveLocation>/Users/athessen/source/nescent-anatomy-course/user/anne</saveLocation>
-    <saveFile>/Users/athessen/source/nescent-anatomy-course/user/anne/Thessen_ontology.vue</saveFile>
+    <saveLocation>/Users/eriksegerdell/Documents/VUE-to-OWL/vue</saveLocation>
+    <saveFile>/Users/eriksegerdell/Documents/VUE-to-OWL/vue/thessen_ontology.vue</saveFile>
 </LW-MAP>
