@@ -1,0 +1,666 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#"
+     xml:base="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#develops_from -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#develops_from"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#part_of"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#passes_through -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#passes_through"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2cfe0dafc0a80aad00a3cf3e99f51413 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2cfe0dafc0a80aad00a3cf3e99f51413">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occipital arches</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db3c0a80aad00a3cf3e7b3f16cd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2cfe0dafc0a80aad00a3cf3e9b7c96a9 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2cfe0dafc0a80aad00a3cf3e9b7c96a9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optic capsule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db3c0a80aad00a3cf3e7b3f16cd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2cfe0db0c0a80aad00a3cf3ea929aa9f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2cfe0db0c0a80aad00a3cf3ea929aa9f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parachordal cartilage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db3c0a80aad00a3cf3e7b3f16cd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2cfe0db1c0a80aad00a3cf3e5b74de88 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2cfe0db1c0a80aad00a3cf3e5b74de88">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">otic capsule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db3c0a80aad00a3cf3e7b3f16cd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2cfe0db1c0a80aad00a3cf3ef5816a41 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2cfe0db1c0a80aad00a3cf3ef5816a41">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posterior orbital cartilage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db3c0a80aad00a3cf3e7b3f16cd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2cfe0db2c0a80aad00a3cf3e143fd29a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2cfe0db2c0a80aad00a3cf3e143fd29a">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nasal capsule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db3c0a80aad00a3cf3e7b3f16cd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2cfe0db2c0a80aad00a3cf3e409f82ad -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2cfe0db2c0a80aad00a3cf3e409f82ad">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trabeculum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db3c0a80aad00a3cf3e7b3f16cd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2cfe0db3c0a80aad00a3cf3e7b3f16cd -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2cfe0db3c0a80aad00a3cf3e7b3f16cd">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondrocranium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d4cdb5dc0a80aad00a3cf3e2a6ffc8c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d1f35f3c0a80aad00a3cf3e27bdcc72 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d1f35f3c0a80aad00a3cf3e27bdcc72">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interorbital septum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db2c0a80aad00a3cf3e409f82ad"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d1f35f3c0a80aad00a3cf3e9127ad2b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d1f35f3c0a80aad00a3cf3e9127ad2b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cirsta sellaris</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db1c0a80aad00a3cf3ef5816a41"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d1f35f4c0a80aad00a3cf3e7dce1750 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d1f35f4c0a80aad00a3cf3e7dce1750">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pila antotica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db1c0a80aad00a3cf3ef5816a41"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d1f35f4c0a80aad00a3cf3ea5720446 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d1f35f4c0a80aad00a3cf3ea5720446">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planum supraseptale</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d1f35f3c0a80aad00a3cf3e27bdcc72"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d1f35f4c0a80aad00a3cf3edc37209b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d1f35f4c0a80aad00a3cf3edc37209b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pila metoptica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d1f35f4c0a80aad00a3cf3ea5720446"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db2c0a80aad00a3cf3e409f82ad"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d1f35f7c0a80aad00a3cf3e8a5a5a4a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d1f35f7c0a80aad00a3cf3e8a5a5a4a">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foramen for optic nerve (CN II)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8063630d"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3018af4e0a000525003492fcd866d6fc"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db2c0a80aad00a3cf3e409f82ad"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d1f35f4c0a80aad00a3cf3edc37209b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d1f35f9c0a80aad00a3cf3ebdd6e904 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d1f35f9c0a80aad00a3cf3ebdd6e904">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subiculum infundibuli</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db2c0a80aad00a3cf3e409f82ad"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d2d539cc0a80aad00a3cf3eae13c739 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d2d539cc0a80aad00a3cf3eae13c739">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pituitary fenestra</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8063630d"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3018af4e0a000525003492fce28282d8"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d1f35f3c0a80aad00a3cf3e9127ad2b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db2c0a80aad00a3cf3e409f82ad"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d1f35f9c0a80aad00a3cf3ebdd6e904"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d2d539dc0a80aad00a3cf3e2ac552e2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d2d539dc0a80aad00a3cf3e2ac552e2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foramen for oculomotor nerve (CN III)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8063630d"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3018af4e0a000525003492fcd866d6fc"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d1f35f4c0a80aad00a3cf3e7dce1750"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db2c0a80aad00a3cf3e409f82ad"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d1f35f4c0a80aad00a3cf3edc37209b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d2d539dc0a80aad00a3cf3e35ccfccc -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d2d539dc0a80aad00a3cf3e35ccfccc">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foramen for trochlear nerve (CN IV)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8063630d"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3018af4e0a000525003492fcd866d6fc"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d1f35f4c0a80aad00a3cf3e7dce1750"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d1f35f4c0a80aad00a3cf3edc37209b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db2c0a80aad00a3cf3e409f82ad"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d2d539dc0a80aad00a3cf3e3aa530a6 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d2d539dc0a80aad00a3cf3e3aa530a6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foramen for trigeminal nerve (CN V)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8063630d"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3018af4e0a000525003492fcd866d6fc"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db1c0a80aad00a3cf3e5b74de88"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d1f35f4c0a80aad00a3cf3e7dce1750"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d2d539ec0a80aad00a3cf3e1f2965f2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d2d539ec0a80aad00a3cf3e1f2965f2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basicranial fenestra</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8063630d"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3018af4e0a000525003492fce28282d8"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db0c0a80aad00a3cf3ea929aa9f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d1f35f3c0a80aad00a3cf3e9127ad2b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d2d539ec0a80aad00a3cf3ebbf4367f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d2d539ec0a80aad00a3cf3ebbf4367f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formina for hypoglossal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8063630d"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3018af4e0a000525003492fcd866d6fc"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dafc0a80aad00a3cf3e99f51413"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d4cdb54c0a80aad00a3cf3e8ed470ef -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d4cdb54c0a80aad00a3cf3e8ed470ef">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metotic fissure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8063630d"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3018af4f0a000525003492fc5db9dddd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0db1c0a80aad00a3cf3e5b74de88"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#space_bordered_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dafc0a80aad00a3cf3e99f51413"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d4cdb55c0a80aad00a3cf3e014d7b69 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d4cdb55c0a80aad00a3cf3e014d7b69">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dermatocranium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d4cdb5dc0a80aad00a3cf3e2a6ffc8c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d4cdb5dc0a80aad00a3cf3e2a6ffc8c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d4cdb5dc0a80aad00a3cf3e2a6ffc8c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skull</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d592783c0a80aad00a3cf3e36f10386 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d592783c0a80aad00a3cf3e36f10386">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trigeminal nerve (CN V)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3018af4f0a000525003492fc3c724b31"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#passes_through"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d2d539dc0a80aad00a3cf3e3aa530a6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d592783c0a80aad00a3cf3e4251080e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d592783c0a80aad00a3cf3e4251080e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trochlear nerve (CN IV)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3018af4f0a000525003492fc3c724b31"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#passes_through"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d2d539dc0a80aad00a3cf3e35ccfccc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d592783c0a80aad00a3cf3e629940b8 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d592783c0a80aad00a3cf3e629940b8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optic nerve (CN II)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3018af4f0a000525003492fc3c724b31"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#passes_through"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d1f35f7c0a80aad00a3cf3e8a5a5a4a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d592783c0a80aad00a3cf3e6ba66529 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d592783c0a80aad00a3cf3e6ba66529">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oculomotor nerve (CN III)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3018af4f0a000525003492fc3c724b31"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#passes_through"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d2d539dc0a80aad00a3cf3e2ac552e2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d592783c0a80aad00a3cf3e9d7dfd8d -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d592783c0a80aad00a3cf3e9d7dfd8d">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypoglossal nerve (CN XII)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3018af4f0a000525003492fc3c724b31"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#passes_through"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d2d539ec0a80aad00a3cf3ebbf4367f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fa872840a000525003492fc12aef27e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fa872840a000525003492fc12aef27e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical Conduit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8063630d"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8063630d -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8063630d">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immaterial anatomical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8e19d3ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8e19d3ec -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8e19d3ec">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fcd7e85a16"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fcd7e85a16 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fcd7e85a16">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material anatomical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8e19d3ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3018af4e0a000525003492fcd866d6fc -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3018af4e0a000525003492fcd866d6fc">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foramen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fa872840a000525003492fc12aef27e"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8063630d"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3018af4e0a000525003492fce28282d8 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3018af4e0a000525003492fce28282d8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fenestra</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fa872840a000525003492fc12aef27e"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8063630d"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3018af4f0a000525003492fc3c724b31 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3018af4f0a000525003492fc3c724b31">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cranial nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3018af4f0a000525003492fc5db9dddd -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3018af4f0a000525003492fc5db9dddd">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fissure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fa872840a000525003492fc12aef27e"/>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f40a000525003492fc8063630d"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32616b840a000525003492fc7fabbc67 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32616b840a000525003492fc7fabbc67">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splanchnocranium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3002c9f50a000525003492fcded30d15"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2cfe0dacc0a80aad00a3cf3e31030824#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d4cdb5dc0a80aad00a3cf3e2a6ffc8c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.3-SNAPSHOT) http://owlapi.sourceforge.net -->
+

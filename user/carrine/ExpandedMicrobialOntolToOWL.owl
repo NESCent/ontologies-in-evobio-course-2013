@@ -1,0 +1,2758 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://vue.tufts.edu/rdf/resource/2d34f925c0a80014013e657739868127#"
+     xml:base="http://vue.tufts.edu/rdf/resource/2d34f925c0a80014013e657739868127"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://vue.tufts.edu/rdf/resource/2d34f925c0a80014013e657739868127"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f925c0a80014013e657739868127#n -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2d34f925c0a80014013e657739868127#n"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f925c0a80014013e6577018d9880 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f925c0a80014013e6577018d9880">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacto-tryptone
+Tryptone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f925c0a80014013e65773a361962 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f925c0a80014013e65773a361962">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chlorella extract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f925c0a80014013e657784fa9e0c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f925c0a80014013e657784fa9e0c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacto peptone
+Bacto-peptone
+Peptone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f925c0a80014013e6577b8994fc8 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f925c0a80014013e6577b8994fc8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Archaeal cell extract
+Archaeal cell-extract
+Extracts of bacteria or archaea cells
+Extracts of bacterial and archaebacterial cells</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e65770525d90f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e65770525d90f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bio-trypcase
+Biotrypticase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e657723bd938f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e657723bd938f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipids from egg yolk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e657741943509 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e657741943509">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Casamino acid
+Casamino acids</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e65774af626e1 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e65774af626e1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Casein hydrolysate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e657752d060a7 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e657752d060a7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locust-bean gum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e65776f597d2f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e65776f597d2f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef extract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e6577911deaab -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e6577911deaab">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brain heart infusion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e65779b396af3 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e65779b396af3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Konjac jlucomannan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e6577a4a91df9 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e6577a4a91df9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bovine heart infusion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e6577ab9333e2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e6577ab9333e2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bile Salts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e6577d2246446 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e6577d2246446">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crude oil</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e6577d9352c01 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f926c0a80014013e6577d9352c01">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fecal extract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577166f3da5 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577166f3da5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malt extract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e657754dfb862 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e657754dfb862">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lodgepole Pine Needle Extract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e65776791f15a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e65776791f15a">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malt</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e65776936e724 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e65776936e724">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat extract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e65777453db2d -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e65777453db2d">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e657777923803 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e657777923803">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manure extract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e65777886923c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e65777886923c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sludge fluid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e65778267924d -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e65778267924d">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat peptone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e657790cfa03e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e657790cfa03e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skim milk
+Skimmed milk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577ac3c23df -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577ac3c23df">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trypticase
+Trypticase Peptone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577aca442c8 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577aca442c8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutrient broth</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577b82309dc -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577b82309dc">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neopeptone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577bbd721f3 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577bbd721f3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy extract
+Soya bean extract
+Soya extract
+Soya broth</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577c7d49b1a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577c7d49b1a">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polypeptone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577e021d413 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577e021d413">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tureen fluid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577eaf84f00 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577eaf84f00">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteose peptone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577f6a82d49 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d34f927c0a80014013e6577f6a82d49">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rumen fluid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d5115efc0a80014013e657765a30a6e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d5115efc0a80014013e657765a30a6e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horse blood agar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d5115efc0a80014013e657767361e28 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d5115efc0a80014013e657767361e28">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yeast extract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d5115efc0a80014013e6577e18fdc75 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d5115efc0a80014013e6577e18fdc75">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spissated serum
+Inspissiated serum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d5115f0c0a80014013e657726e7bd8e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d5115f0c0a80014013e657726e7bd8e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sp-4 medium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d5115f0c0a80014013e65773ae7987a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d5115f0c0a80014013e65773ae7987a">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horse serum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d5115f0c0a80014013e6577d0cd6819 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d5115f0c0a80014013e6577d0cd6819">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sterols
+Sterol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e657736d613c0 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e657736d613c0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sp-4 solid medium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complex organic carbon growth requirement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e6577fd1d93e0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e657745c2a52b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e657745c2a52b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPLO serum fraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e6577d809f50e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e6577d809f50e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LPS fraction from E. coli cells</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d5115f1c0a80014013e65773c33e799"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbohydrates (mono &amp; disaccharides) Catabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e6577fd1d93e0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e65774f775f7a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e65774f775f7a">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolic phenotype</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/34d4dda10a00051e0080cf99b207b898"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e6577fd1d93e0 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e6577fd1d93e0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbon utilization phenotype</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e65774f775f7a"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb21c0a80014013e657749ed7e76 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb21c0a80014013e657749ed7e76">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alginates</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb21c0a80014013e65778b41aae2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb21c0a80014013e65778b41aae2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arabinose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb21c0a80014013e6577a5d8b85e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb21c0a80014013e6577a5d8b85e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b-methyl d-glucoside</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb21c0a80014013e6577cc510ea1 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb21c0a80014013e6577cc510ea1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-galactose
+Galactose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb21c0a80014013e6577d8e8b32e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb21c0a80014013e6577d8e8b32e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carraghenans</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb21c0a80014013e6577ec55f68e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb21c0a80014013e6577ec55f68e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-arabinose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e6577ef56f2f6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb22c0a80014013e657746a533de -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb22c0a80014013e657746a533de">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-mannose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e6577fab66d12"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb22c0a80014013e6577571c7740 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb22c0a80014013e6577571c7740">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-maltose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e6577e398762f"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb22c0a80014013e657761ffd536 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb22c0a80014013e657761ffd536">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-cellobiose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb2bc0a80014013e65772a6ea70b"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb22c0a80014013e6577bf9617fd -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb22c0a80014013e6577bf9617fd">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-lactulose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb25c0a80014013e65774aee694a"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb22c0a80014013e6577c778aa4f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb22c0a80014013e6577c778aa4f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-fructose
+Fructose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb22c0a80014013e6577d9efa806 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb22c0a80014013e6577d9efa806">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-glucose
+D-l-glucose
+Dextrose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb2ac0a80014013e6577645c5a23"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb23c0a80014013e65771efe33c5 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb23c0a80014013e65771efe33c5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-raffinose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e6577e44f7dd6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb23c0a80014013e65773f52ed13 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb23c0a80014013e65773f52ed13">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-trehalose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e6577eaac64b2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb23c0a80014013e65774ace45f2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb23c0a80014013e65774ace45f2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-psicose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb23c0a80014013e65776cd93f43 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb23c0a80014013e65776cd93f43">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-melibiose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e65777467b2ff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb23c0a80014013e6577d2fe9101 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb23c0a80014013e6577d2fe9101">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-turanose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb23c0a80014013e6577db128fd9 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb23c0a80014013e6577db128fd9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-ribose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e6577eb410bd8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e6577470bdfd4 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e6577470bdfd4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-fucose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e6577950c961b"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e65778a9da86f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e65778a9da86f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gentobiose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e6577950c961b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e6577950c961b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fucose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e6577d4ce3931 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e6577d4ce3931">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-Glucose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb2ac0a80014013e6577645c5a23"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e6577ded43c0a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e6577ded43c0a">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-xylose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e65779acf68bd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e6577e989ec53 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e6577e989ec53">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-arabinose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e6577ef56f2f6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e6577ef56f2f6 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb24c0a80014013e6577ef56f2f6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arabinose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb25c0a80014013e657702bb665c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb25c0a80014013e657702bb665c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-rhamnose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e6577cd396b40"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb25c0a80014013e657744e0e9c0 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb25c0a80014013e657744e0e9c0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-xylose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e65779acf68bd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb25c0a80014013e65774aee694a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb25c0a80014013e65774aee694a">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lactulose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb25c0a80014013e6577623f38ed -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb25c0a80014013e6577623f38ed">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-maltose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e6577e398762f"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb25c0a80014013e657771c47199 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb25c0a80014013e657771c47199">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lactose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb25c0a80014013e6577c5e37a5f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb25c0a80014013e6577c5e37a5f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-sorbose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e657720a9235f"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e65777467b2ff -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e65777467b2ff">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melibiose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e6577cd396b40 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e6577cd396b40">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhamnose
+Ramnose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e6577d830a125 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e6577d830a125">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methyl b-D-glucoside</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e6577e398762f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e6577e398762f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maltose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e6577e44f7dd6 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e6577e44f7dd6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raffinose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e6577fab66d12 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb26c0a80014013e6577fab66d12">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mannose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e657720a9235f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e657720a9235f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorbose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e6577982f8898 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e6577982f8898">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saccharose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e65779acf68bd -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e65779acf68bd">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xylose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e6577c234a421 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e6577c234a421">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sucrose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e6577eaac64b2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e6577eaac64b2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trehalose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e6577eb410bd8 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb27c0a80014013e6577eb410bd8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ribose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb28c0a80014013e65774dd4913d -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb28c0a80014013e65774dd4913d">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbohydrates (unspecified)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb2ac0a80014013e6577645c5a23 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb2ac0a80014013e6577645c5a23">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2d83bb2bc0a80014013e65772a6ea70b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2d83bb2bc0a80014013e65772a6ea70b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cellobiose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb1fc0a80014013e6577d5987670"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polysaccharide Catabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e6577fd1d93e0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda67c0a80014013e65778c8acfc0 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda67c0a80014013e65778c8acfc0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agarose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda67c0a80014013e6577ec9c3e75 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda67c0a80014013e6577ec9c3e75">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a-keratin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e6577e9bbcf90"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda67c0a80014013e6577ef4363bd -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda67c0a80014013e6577ef4363bd">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b-keratin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e6577e9bbcf90"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e657707655648 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e657707655648">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amylopectin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e657728fab258 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e657728fab258">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chitin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e65773bc85550 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e65773bc85550">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amylose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e657788d18498 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e657788d18498">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b-cyclodextrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e6577bbcad3fa -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e6577bbcad3fa">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellulose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e6577cda11c85 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e6577cda11c85">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxymethylcellulose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e6577ee31ab57 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e6577ee31ab57">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">albumin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e6577f30bd03b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda68c0a80014013e6577f30bd03b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">casein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e65770dae3c88 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e65770dae3c88">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclodextrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e6577148d4ceb -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e6577148d4ceb">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filter paper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e657722ff204c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e657722ff204c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dextrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e65773eda564a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e65773eda564a">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chitosan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e6577790e1d23 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e6577790e1d23">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelatin
+Gelatine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e657783026be7 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e657783026be7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dextrane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e657793ec937c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e657793ec937c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collagen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e6577bdd259a9 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e6577bdd259a9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dextran sulfate
+dextran sulphate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e6577fbca1fc2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda69c0a80014013e6577fbca1fc2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dextran</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e65770505ab2b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e65770505ab2b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Keratin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e65770e617485 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e65770e617485">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guar gum
+Gum guar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e65773015bf0e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e65773015bf0e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lecithin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e65774d16e227 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e65774d16e227">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycogen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e65774def5ed9 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e65774def5ed9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laminarin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e657779030882 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e657779030882">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locust Gum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e65779c10727b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e65779c10727b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inulin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e6577defb72f3 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6ac0a80014013e6577defb72f3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lichenan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e65772c1fadee -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e65772c1fadee">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soluble starch
+Starch</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e65774a71b95f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e65774a71b95f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xylane
+Xylan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e657777824218 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e657777824218">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pullulan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e6577a74db1ed -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e6577a74db1ed">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pure agar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e6577cd210afa -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e6577cd210afa">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pectin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e6577d0748ac0 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e6577d0748ac0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthan Gum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e6577df240200 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e6577df240200">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microcystalline cellulose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e6577e9bbcf90 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/308fda6bc0a80014013e6577e9bbcf90">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">keratin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb2c00cc0a80014013e6577129fe309"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e65773f386ac8 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e65773f386ac8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B vitamins</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e6577501edeb6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e6577501edeb6 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e6577501edeb6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamins &amp; Co-factor Growth Requirement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e65774f775f7a"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e65777ac51717 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e65777ac51717">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamins (unspecified)
+Vitamin mixture (unspecified)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e6577501edeb6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e657798beb806 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e657798beb806">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiamine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e65773f386ac8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e6577a2815f83 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e6577a2815f83">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B12
+Vibtamin B12</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e65773f386ac8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/30b9c80bc0a80014013e6577837ac19f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/30b9c80bc0a80014013e6577837ac19f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyridoxine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e65773f386ac8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/30b9c80bc0a80014013e6577a39dac50 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/30b9c80bc0a80014013e6577a39dac50">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Co-enzyme M
+Coenzyme M
+HS-CoM</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e6577501edeb6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/30b9c80bc0a80014013e6577fb7b18dd -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/30b9c80bc0a80014013e6577fb7b18dd">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biotin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/30b9c80ac0a80014013e65773f386ac8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31248888c0a80014013e65771554272f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e65771554272f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-aminobenzoate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31248888c0a80014013e65776038716f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e65776038716f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-methylbutyric acid
+2-methylbutyrate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31248888c0a80014013e657774e0f611 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e657774e0f611">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-hydroxybutyric acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577d1d91ed1 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577d1d91ed1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-methylbutyrate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organic Acid Catabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e6577fd1d93e0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31248889c0a80014013e65770fc2ee9f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31248889c0a80014013e65770fc2ee9f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a-ketoglutaric acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31248889c0a80014013e65771bb51f8f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31248889c0a80014013e65771bb51f8f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b-hydroxybutyric acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31248889c0a80014013e65773851f2ce -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31248889c0a80014013e65773851f2ce">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a-ketyobutyric acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31248889c0a80014013e65773a353356 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31248889c0a80014013e65773a353356">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bromosuccinic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31248889c0a80014013e657740b86bd4 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31248889c0a80014013e657740b86bd4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a-valeric acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31248889c0a80014013e65775f7c700c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31248889c0a80014013e65775f7c700c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aminobutyric acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31248889c0a80014013e6577606b5306 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31248889c0a80014013e6577606b5306">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">butyrate
+butyric acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31248889c0a80014013e6577698cc1aa -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31248889c0a80014013e6577698cc1aa">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acetate
+acetic acid
+Acetic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31248889c0a80014013e65779a87e9a8 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31248889c0a80014013e65779a87e9a8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">benzoic acid
+benzoate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e65771518ff4b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e65771518ff4b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-glucuronic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e657716a6eff5 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e657716a6eff5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">citrate
+citric acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e65774fd3d1d3 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e65774fd3d1d3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-glucosaminic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e65777fe9c483 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e65777fe9c483">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-galactonic acid lactone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e6577ae627548 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e6577ae627548">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cis-acetic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e6577bcfd29e0 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e6577bcfd29e0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-hydroxybutyric acid
+butanoic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e6577ea5c85dc -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e6577ea5c85dc">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-galacturonic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e6577a698f8b3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e6577ec5eb8bf -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e6577ec5eb8bf">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-lactate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e657750993ac8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e6577f6cc23eb -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ac0a80014013e6577f6cc23eb">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-gluconic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e65771de891e3 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e65771de891e3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Furmarate
+Fumaric acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e6577258889c0 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e6577258889c0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glutamate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e657728a5805e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e657728a5805e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iso-butyrate
+Isobutyrate
+Isobutyric acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e65772b5ad71c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e65772b5ad71c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formate
+Formic acid
+Formic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e657750993ac8 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e657750993ac8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DL-lactate
+DL-lactic acid
+Lactate
+Lactic acid
+Lactic acids
+Lactic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e65775b0b1446 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e65775b0b1446">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isovalerate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e657796087e77 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e657796087e77">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Itaconic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e6577a698f8b3 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e6577a698f8b3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galacturonic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e6577b995c253 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e6577b995c253">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-saccharic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e65770ba5b06e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e65770ba5b06e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-malate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e65776616a87e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e65774412be90 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e65774412be90">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n-butyric acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e657751451fb7 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e657751451fb7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monomethyl succinate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e657762263e55 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e657762263e55">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methyl pyruvate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e65776616a87e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e65776616a87e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malate
+Malic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e6577b30b167b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e6577b30b167b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methyl-butyrate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e6577cc7eb906 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e6577cc7eb906">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-pyroglutamic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e6577f61c43b1 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e6577f61c43b1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malonic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e6577f84212fa -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888cc0a80014013e6577f84212fa">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L(+)-lactate
+L-lactate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3124888bc0a80014013e657750993ac8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e6577070052cd -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e6577070052cd">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyruvate
+Pyruvic aciid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e657722523f8c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e657722523f8c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Propionic acid
+Propionic acids</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e65772e77fdaf -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e65772e77fdaf">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-aminobenzoate
+p-aminobenzoic acid
+para-aminobenoic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e657737a7d020 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e657737a7d020">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sebacic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e65778c7015fe -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e65778c7015fe">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quinic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e6577cddb026e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e6577cddb026e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Propanoate
+Propanoic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e6577d90c53d7 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e6577d90c53d7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-hydroxyphenylacetic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e6577f2ede266 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888dc0a80014013e6577f2ede266">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenylacetic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e657702b5a2b1 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e657702b5a2b1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palmitate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e657705bcbab0 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e657705bcbab0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trimethoxybenzoate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e65772c5f2262 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e65772c5f2262">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valerate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e657754ba5a43 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e657754ba5a43">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Succinic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e657756b9a5cc -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e657756b9a5cc">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stearate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e65775a2d3d11 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e65775a2d3d11">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Succinamic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e65775e2abd19 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e65775e2abd19">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saccharate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e65778f323af5 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e65778f323af5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tartrate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e6577a04b80e2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e6577a04b80e2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxalate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e6577afefed01 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888ec0a80014013e6577afefed01">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urocanic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3124888fc0a80014013e6577a5750257 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3124888fc0a80014013e6577a5750257">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g-aminobutyrate
+g-aminobutyric acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31248888c0a80014013e6577f8325c8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Organic Compound Catabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e6577fd1d93e0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32957451c0a80014000465300c13e293 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32957451c0a80014000465300c13e293">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-ketogluconate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32957451c0a80014000465304df4e83f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32957451c0a80014000465304df4e83f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-ketogluconate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32957451c0a800140004653053f98f55 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32957451c0a800140004653053f98f55">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3,3-dimethylglutaric acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32957451c0a800140004653060ec5102 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32957451c0a800140004653060ec5102">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amygdalin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32957451c0a8001400046530773eaae2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32957451c0a8001400046530773eaae2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amino Acid Requirement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e6577fd1d93e0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32957451c0a80014000465307d1a8b5d -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32957451c0a80014000465307d1a8b5d">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-2-oxoglutarate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32957451c0a8001400046530ebf7a165 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32957451c0a8001400046530ebf7a165">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acetone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32957452c0a8001400046530294b3562 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32957452c0a8001400046530294b3562">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caprylate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32957452c0a8001400046530393d6dce -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32957452c0a8001400046530393d6dce">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calf thymus DNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32957452c0a80014000465303f86544d -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32957452c0a80014000465303f86544d">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arbutin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32957452c0a8001400046530b425e6b5 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32957452c0a8001400046530b425e6b5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AQDS</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac12c0a80014008a58a5652805ad -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac12c0a80014008a58a5652805ad">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alcohol Catabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e6577fd1d93e0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac12c0a80014008a58a5687cce44 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac12c0a80014008a58a5687cce44">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nitrogen Compounds</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e65774f775f7a"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac12c0a80014008a58a5ab57b8d5 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac12c0a80014008a58a5ab57b8d5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolic Strategy</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2d34f925c0a80014013e657739868127#n"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e65774f775f7a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac13c0a80014008a58a5087528c4 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac13c0a80014008a58a5087528c4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metal Substrates</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e65774f775f7a"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac13c0a80014008a58a5237cfc82 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac13c0a80014008a58a5237cfc82">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Inorganic Substrates</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e65774f775f7a"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac13c0a80014008a58a581a93858 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac13c0a80014008a58a581a93858">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sulfur compounds</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e65774f775f7a"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac13c0a80014008a58a5a6b8d327 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac13c0a80014008a58a5a6b8d327">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organosulfur compounds</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2d83bb20c0a80014013e65774f775f7a"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a5031d6a61 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a5031d6a61">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolic Tests</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a54cfe5de5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a52b946afb -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a52b946afb">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secreted Products</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a54cfe5de5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a54cfe5de5 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a54cfe5de5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physiological Phenotype</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/34d4dda10a00051e0080cf99b207b898"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a54d6f2f5b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a54d6f2f5b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibiotic Resistance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a54cfe5de5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a57ec6db97 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a57ec6db97">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pigments Produced</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a54cfe5de5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a5d589567b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a5d589567b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environmental Requirements for Growth</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a54cfe5de5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac15c0a80014008a58a532cc89db -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac15c0a80014008a58a532cc89db">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shape</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac15c0a80014008a58a5503995ca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac15c0a80014008a58a54cdcf323 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac15c0a80014008a58a54cdcf323">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Internal Features</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac15c0a80014008a58a5503995ca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac15c0a80014008a58a5503995ca -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac15c0a80014008a58a5503995ca">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morphological Phenotype</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/34d4dda10a00051e0080cf99b207b898"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac16c0a80014008a58a56b684591 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac16c0a80014008a58a56b684591">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colony/Culture Features</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac15c0a80014008a58a5503995ca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac16c0a80014008a58a582bd886b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac16c0a80014008a58a582bd886b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Surface Integrity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac15c0a80014008a58a5503995ca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac16c0a80014008a58a58bb1d91e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac16c0a80014008a58a58bb1d91e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Motility</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac15c0a80014008a58a5503995ca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac16c0a80014008a58a5c2f00d9b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac16c0a80014008a58a5c2f00d9b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">External Features</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac15c0a80014008a58a5503995ca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac17c0a80014008a58a51f81d583 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac17c0a80014008a58a51f81d583">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Pathogen) Hosts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a54cfe5de5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac17c0a80014008a58a58fbcab90 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac17c0a80014008a58a58fbcab90">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Storage Products</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac15c0a80014008a58a5503995ca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac17c0a80014008a58a5bda569b2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac17c0a80014008a58a5bda569b2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemadsoption/Haemagglutination/Haemolysis Phenotype</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a54cfe5de5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac17c0a80014008a58a5c4ce6087 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac17c0a80014008a58a5c4ce6087">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases Caused</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a54cfe5de5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac17c0a80014008a58a5cc79e11b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac17c0a80014008a58a5cc79e11b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Host) Target Organs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac14c0a80014008a58a54cfe5de5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac18c0a80014008a58a55266c089 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac18c0a80014008a58a55266c089">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Choline</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a7ac18c0a80014008a58a5c8fde11b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a7ac18c0a80014008a58a5c8fde11b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-gluconate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a9d385c0a80014008a58a51189b19c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a9d385c0a80014008a58a51189b19c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-glucoronate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a9d386c0a80014008a58a5d2a9b3f0 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a9d386c0a80014008a58a5d2a9b3f0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-glucuronate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32a9d386c0a80014008a58a5e5379a66 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32a9d386c0a80014008a58a5e5379a66">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-lyxose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2877f0000010153207553e42d90 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2877f0000010153207553e42d90">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DL-lanthionine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2877f0000010153207571416b35 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2877f0000010153207571416b35">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-tagatose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2877f000001015320759e5cc78f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2877f000001015320759e5cc78f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">esculin ferric citrate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2877f00000101532075f156506f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2877f00000101532075f156506f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ehtyl acetate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2887f000001015320750403e524 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2887f000001015320750403e524">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galacturonate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2887f0000010153207513bda886 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2887f0000010153207513bda886">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gluconuronate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2887f000001015320755fe547a6 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2887f000001015320755fe547a6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formiate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2887f00000101532075605ca07f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2887f00000101532075605ca07f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gluconolactone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2887f00000101532075adbab674 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2887f00000101532075adbab674">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formaldehyde</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2887f00000101532075b980a92f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2887f00000101532075b980a92f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gluconate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2887f00000101532075ea0008c1 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2887f00000101532075ea0008c1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galactosamine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2887f00000101532075f8fa9149 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2887f00000101532075f8fa9149">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2897f0000010153207503fd4c38 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2897f0000010153207503fd4c38">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycolate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2897f000001015320750d772449 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2897f000001015320750d772449">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gluconolactone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2897f0000010153207523aba782 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2897f0000010153207523aba782">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucuronate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2897f000001015320752b4cb615 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2897f000001015320752b4cb615">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gluconuronate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2897f00000101532075b9774dcf -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2897f00000101532075b9774dcf">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucosamine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2897f00000101532075bcc2dbe7 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2897f00000101532075bcc2dbe7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucose-6-phosphate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2897f00000101532075ee1e7f9b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2897f00000101532075ee1e7f9b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gluconate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a2897f00000101532075fe45f144 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a2897f00000101532075fe45f144">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucose-1-phosphate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a28a7f000001015320752e24b66a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a28a7f000001015320752e24b66a">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melezitose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a28a7f00000101532075458f4b58 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a28a7f00000101532075458f4b58">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methyl-a-d-glucopyranoside</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a28a7f000001015320754af67ed2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a28a7f000001015320754af67ed2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hippurate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a28a7f0000010153207557a27914 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a28a7f0000010153207557a27914">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methylmercury</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a28a7f000001015320755a5be9f6 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a28a7f000001015320755a5be9f6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inositol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a28a7f00000101532075da6c7b4b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a28a7f00000101532075da6c7b4b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inosine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a28a7f00000101532075fe2c9a11 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a28a7f00000101532075fe2c9a11">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a28a7f00000101532075ff8aa360 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a28a7f00000101532075ff8aa360">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meso-inositol
+Mesoinositol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a28b7f000001015320750f33ed79 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a28b7f000001015320750f33ed79">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-talosaminuronic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a28b7f000001015320751f354d88 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a28b7f000001015320751f354d88">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-acetyl-D-glucosamine
+N-acetyl-glucosamine
+N-acetylglucosamine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a28b7f000001015320758a89a29f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a28b7f000001015320758a89a29f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myo-inositol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a28b7f000001015320759e625dfa -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a28b7f000001015320759e625dfa">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-acetyl d-galactosamine
+N-acetyl-galactosamine
+N-acetylgalactosamine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32b9a28b7f00000101532075fb2110ee -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32b9a28b7f00000101532075fb2110ee">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenyl acetate
+Phenylacetate
+Phenylacetic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32bdcacd7f00000101532075022527ff -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32bdcacd7f00000101532075022527ff">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Propane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32bdcacd7f00000101532075b4eecba4 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32bdcacd7f00000101532075b4eecba4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Propane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32bdcacd7f00000101532075ebbc6693 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32bdcacd7f00000101532075ebbc6693">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Propylene</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32bdcace7f00000101532075587cc30b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32bdcace7f00000101532075587cc30b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tetramethylammonium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32bdcace7f00000101532075a76157e7 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32bdcace7f00000101532075a76157e7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salicin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605b87f000001015320751e240e44 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605b87f000001015320751e240e44">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tween</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605b87f0000010153207571d57b20 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605b87f0000010153207571d57b20">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thioglycolate
+Thioglycollate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605b87f000001015320758ab7d2dd -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605b87f000001015320758ab7d2dd">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theophylline</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605b87f00000101532075985238a9 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605b87f00000101532075985238a9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thymidine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605b87f00000101532075cc3adda8 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605b87f00000101532075cc3adda8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theobromine</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2d34f925c0a80014013e657739868127#n"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605b87f00000101532075d2f6d152 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605b87f00000101532075d2f6d152">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toluene</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605b97f000001015320754bbf3c64 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605b97f000001015320754bbf3c64">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tween 40</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32c605b87f000001015320751e240e44"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605b97f00000101532075b3847913 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605b97f00000101532075b3847913">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tween 80</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32c605b87f000001015320751e240e44"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605b97f00000101532075f573bfb6 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605b97f00000101532075f573bfb6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tween 20</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32c605b87f000001015320751e240e44"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605ba7f000001015320750b6b3695 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605ba7f000001015320750b6b3695">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VFA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605ba7f000001015320758b9ab113 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605ba7f000001015320758b9ab113">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhamnoside</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605ba7f000001015320759a65165c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605ba7f000001015320759a65165c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cholesterol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605ba7f00000101532075d4ea768e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605ba7f00000101532075d4ea768e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyanethol sulfponate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605ba7f00000101532075d5958336 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605ba7f00000101532075d5958336">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uridine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605ba7f00000101532075eb61c55b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605ba7f00000101532075eb61c55b">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xylan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3288694ac0a8001400046530b221fc84"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32c605bb7f000001015320759ebf4fc6 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32c605bb7f000001015320759ebf4fc6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dimethylselenide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32a7ac13c0a80014008a58a5087528c4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/34d4dda10a00051e0080cf99b207b898 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/34d4dda10a00051e0080cf99b207b898">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MicrobialThing</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.3-SNAPSHOT) http://owlapi.sourceforge.net -->
+
