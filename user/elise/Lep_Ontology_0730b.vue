@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.2.2 concept-map (Lep_Ontology_0730b.vue) 2013-07-30 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/C:/Program%20Files%20(x86)/VUE/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Tue Jul 30 22:14:09 EDT 2013 by Elise on platform Windows 7 6.1 in JVM 1.7.0_21-b11 -->
+<!-- Do Not Remove: Saved date Tue Jul 30 22:15:29 EDT 2013 by Elise on platform Windows 7 6.1 in JVM 1.7.0_21-b11 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="Lep_Ontology_0730b.vue" created="1375152076906" x="0.0"
     y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1375236849079" size="171605"
+    <resource referenceCreated="1375236929905" size="171569"
         spec="C:\Users\Elise\src\nescent-anatomy-course\user\elise\Lep_Ontology_0730b.vue"
         type="1" xsi:type="URLResource">
         <title>Lep_Ontology_0730b.vue</title>
@@ -2186,7 +2186,7 @@
         <ctrlPoint0 x="486.5227" y="-803.22314" xsi:type="point"/>
     </child>
     <child ID="246" label="alpine_tundra_habitat" layerID="1"
-        created="1375232562852" x="1000.7766" y="-838.69543"
+        created="1375232562852" x="1122.7766" y="-814.69543"
         width="161.0" height="27.0" strokeWidth="2.0" autoSized="true" xsi:type="node">
         <fillColor>#C1F780</fillColor>
         <strokeColor>#FEFB03</strokeColor>
@@ -2195,15 +2195,15 @@
         <URIString>http://vue.tufts.edu/rdf/resource/32410a56c0a8016501c7921ed7264278</URIString>
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
-    <child ID="247" layerID="1" created="1375232562852" x="955.5062"
-        y="-868.19543" width="86.66577" height="30.5" strokeWidth="2.0"
+    <child ID="247" layerID="1" created="1375232562852" x="964.11633"
+        y="-868.19543" width="191.44562" height="54.5" strokeWidth="2.0"
         autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#FEFB03</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-14</font>
         <URIString>http://vue.tufts.edu/rdf/resource/32410a56c0a8016501c7921eca2477b2</URIString>
-        <point1 x="1041.172" y="-838.69543"/>
-        <point2 x="956.5062" y="-867.19543"/>
+        <point1 x="1154.5619" y="-814.69543"/>
+        <point2 x="965.1163" y="-867.19543"/>
         <ID1 xsi:type="node">246</ID1>
         <ID2 xsi:type="node">243</ID2>
     </child>
@@ -2284,15 +2284,15 @@
         <ctrlPoint0 x="900.5227" y="-593.22314" xsi:type="point"/>
     </child>
     <child ID="256" label="located_in" layerID="1"
-        created="1375232891702" x="1090.8578" y="-812.69543"
-        width="124.58374" height="158.39856" strokeWidth="2.0"
-        autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
+        created="1375232891702" x="1181.1497" y="-788.6953" width="66.0"
+        height="134.39844" strokeWidth="2.0" autoSized="false"
+        controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#FEFB03</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-14</font>
         <URIString>http://vue.tufts.edu/rdf/resource/32459391c0a8016501c7921ec653cb0e</URIString>
-        <point1 x="1091.8578" y="-811.69543"/>
-        <point2 x="1214.4415" y="-655.2969"/>
+        <point1 x="1205.1184" y="-787.6953"/>
+        <point2 x="1223.1809" y="-655.2969"/>
         <ID1 xsi:type="node">246</ID1>
         <ID2 xsi:type="node">250</ID2>
     </child>
@@ -3273,8 +3273,8 @@
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/2da4642cc0a8016501b063b3d3ab1dcd</URIString>
     </layer>
-    <userZoom>0.5</userZoom>
-    <userOrigin x="-1028.7386" y="-758.6116"/>
+    <userZoom>0.25</userZoom>
+    <userOrigin x="-397.1156" y="-603.3058"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1375152076905"
