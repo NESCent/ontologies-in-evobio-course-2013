@@ -1,0 +1,6 @@
+Running the VUE-to-OWL converter:
+
+git clone https://github.com/phenoscape/vue2owl.git
+cd vue2owl
+mvn package
+java -jar target/vue2owl-1.0-SNAPSHOT.one-jar.jar /path/to/file.vue /path/to/ontology.owl
