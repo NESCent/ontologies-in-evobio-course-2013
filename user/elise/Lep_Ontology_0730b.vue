@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.2.2 concept-map (Lep_Ontology_0730b.vue) 2013-07-30 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/C:/Program%20Files%20(x86)/VUE/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Tue Jul 30 21:13:22 EDT 2013 by Elise on platform Windows 7 6.1 in JVM 1.7.0_21-b11 -->
+<!-- Do Not Remove: Saved date Tue Jul 30 21:13:53 EDT 2013 by Elise on platform Windows 7 6.1 in JVM 1.7.0_21-b11 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="Lep_Ontology_0730b.vue" created="1375152076906" x="0.0"
     y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1375233202636" size="128227"
+    <resource referenceCreated="1375233233100" size="128227"
         spec="C:\Users\Elise\src\nescent-anatomy-course\user\elise\Lep_Ontology_0730b.vue"
         type="1" xsi:type="URLResource">
         <title>Lep_Ontology_0730b.vue</title>
