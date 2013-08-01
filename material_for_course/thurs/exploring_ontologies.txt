@@ -1,5 +1,3 @@
-
-
 == Exploring "Supporting" Ontologies ==
 
 This is a instructor driven overview of ontologies that are typically used in conjunction with other ontologies (imported), or that synthesize and summarize across a broad swath of other ontologies.
@@ -14,13 +12,22 @@ As we go through the ontologies keep in mind the following question:
 - how: How are the classes and properties, or ontology as a whole, intended to be used?
 - who: Who is this ontology designed for?
 
-== Upper Level Ontologies ==
+miami
 
-BFO
-* gotchas: two versions, new version very complex
+uberon, pato, go, oboe, 
+
+== Upper Level Ontologies ==
 
 CARO
 * gotchas: two versions, new version not very visible, old version very old
+* 
+
+CDAO
+*
+
+BFO
+* gotchas: two versions, new version very complex
+* 
 
 Evidence code ontology (EVO)
 * gotchas: conflation of evidence with assays, results, and other investigative techniques. Poor inferred classification makes it difficult to choose correct EC.
@@ -34,6 +41,10 @@ PATO
 
 * what: these are the "adjectives"
 * gotchas: funny ontology - these are dependent continuants, and reified relationships
+* largely dependent continuants, intended to be used with independent continuants
+* often used in model organism context, where mutants are being annotated 
+* "normal" = wildtype
+* usually avoide using decreased/increased b/c they 
 
 Spatial
 
@@ -75,4 +86,29 @@ Biological Collections Ontology [covered thursday]
 
 Not sure what is meant by these two (MH) we have ontologies that address both of these, albeit not well in the former case, and in the latter case, not well in OBO land but lots else out there.
 
+== Discusion Notes ==
+
+Phylo Commons 
+- uses CDAO, perhaps a replacement for treebase - started from the hackathon from NESCent
+
+DarwinSW 
+- an early attempt to first explore Darwin Core in RDF, then going to OWL
+- will be replaced by BCO, essentially will replace all of DwC / material samples
+
+OBOE
+* http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl
+- imports many different ontologies, all in the namespace
+
+CARO
+* old caro - no imports, root is anatomical entity
+* first built when we didn't have a lot of logical inference capabilities
+* text definitions viewed extensively by a logician/philosophically 
+* based originally on the FMA, which has both a top down and bottom up hierarchy
+* everything only has one parent
+* new caro - now being built in owl
+* a google code project
+* caro-dev -> caro.owl -> imports .... many different ontologies
+* defining some anatomical entity 
+*  
+* 
 
