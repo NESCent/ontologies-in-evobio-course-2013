@@ -1,0 +1,466 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#"
+     xml:base="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#Assocated_with -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#Assocated_with"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#has_specified_output -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#has_specified_output"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#involved_in -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#involved_in"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#part_of"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#part_of_ -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#part_of_"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#participates_in -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#participates_in"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dcf0a000541000e51673cd795a1 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dcf0a000541000e51673cd795a1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primordial Germ Cell Determination</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/34dec5ba0a0005410026c7daedb531de"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#Assocated_with"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fe00f020a000541000e516747f0974e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dd00a000541000e51676e747e5c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dd00a000541000e51676e747e5c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Predetermined PGC development</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#part_of_"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dcf0a000541000e51673cd795a1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dd10a000541000e5167e9130ac6 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dd10a000541000e5167e9130ac6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Induced PGC development</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dcf0a000541000e51673cd795a1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dd20a000541000e5167feb6a881 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dd20a000541000e5167feb6a881">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trichosaurus pou5f1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU5f1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dda0a000541000e5167a9be40e5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#involved_in"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd10a000541000e5167e9130ac6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#involved_in"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fe00f020a000541000e516747f0974e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dd50a000541000e5167bdd064aa -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dd50a000541000e5167bdd064aa">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ornithorhynchus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dd70a000541000e516770d92f12 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dd70a000541000e516770d92f12">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NV rpt2 Oct</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dd90a000541000e51679adcc766 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dd90a000541000e51679adcc766">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Axolotl Oct4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dda0a000541000e5167a9be40e5 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dda0a000541000e5167a9be40e5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18de20a000541000e5167117f5e6c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18de20a000541000e5167117f5e6c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anolis c. Oct</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18de40a000541000e5167fbfcee9a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18de40a000541000e5167fbfcee9a">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dda0a000541000e5167a9be40e5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#involved_in"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd00a000541000e51676e747e5c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18de50a000541000e51677dd3b3ed -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18de50a000541000e51677dd3b3ed">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Equus pou5f1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18de60a000541000e5167f2d1a8e6 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18de60a000541000e5167f2d1a8e6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sus pou5f1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18de80a000541000e51676d92a276 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18de80a000541000e51676d92a276">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bos pou5f1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18de90a000541000e51677dff266a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18de90a000541000e51677dff266a">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macaca pou5f1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18de90a000541000e5167923b220c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18de90a000541000e5167923b220c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo pou5f1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18dea0a000541000e5167abd505e7 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18dea0a000541000e5167abd505e7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus pou5f1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18deb0a000541000e516750f94980 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18deb0a000541000e516750f94980">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gallus pou5f1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18deb0a000541000e51675ba37642 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18deb0a000541000e51675ba37642">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rattus pou5f1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18def0a000541000e516753f53ac4 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18def0a000541000e516753f53ac4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sturgeon 37 Oct-like</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd30a000541000e5167046535de"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18df00a000541000e51679acbac42 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18df00a000541000e51679acbac42">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU3f2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dda0a000541000e5167a9be40e5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#involved_in"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd00a000541000e51676e747e5c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18df00a000541000e5167f49203eb -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18df00a000541000e5167f49203eb">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU25</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dda0a000541000e5167a9be40e5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#involved_in"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd00a000541000e51676e747e5c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18df10a000541000e5167230fd90a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18df10a000541000e5167230fd90a">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU3f3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dda0a000541000e5167a9be40e5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#involved_in"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd00a000541000e51676e747e5c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18df10a000541000e5167ceb09d6f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18df10a000541000e5167ceb09d6f">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU3f4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dda0a000541000e5167a9be40e5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#involved_in"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd00a000541000e51676e747e5c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18df20a000541000e5167488b2066 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18df20a000541000e5167488b2066">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU3f1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dda0a000541000e5167a9be40e5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#involved_in"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd00a000541000e51676e747e5c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18df20a000541000e5167ea3eb4a3 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18df20a000541000e5167ea3eb4a3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU4f3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dda0a000541000e5167a9be40e5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#involved_in"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd00a000541000e51676e747e5c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18df30a000541000e51676294e51c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18df30a000541000e51676294e51c">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU2f1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dda0a000541000e5167a9be40e5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#involved_in"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd00a000541000e51676e747e5c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd18df30a000541000e51677cb0de8e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd18df30a000541000e51677cb0de8e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU2f3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dda0a000541000e5167a9be40e5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#involved_in"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd00a000541000e51676e747e5c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fe00f020a000541000e516747f0974e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fe00f020a000541000e516747f0974e">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AP Pelvic Fin positioning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/34dec5ba0a0005410026c7daedb531de"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#has_specified_output"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/300a67c00a000541000e5167c5e998e5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/300a67bf0a000541000e5167b320c5df -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/300a67bf0a000541000e5167b320c5df">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pelvic Fin</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#participates_in"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fe00f020a000541000e516747f0974e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/300a67c00a000541000e51675b9b1dd2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/300a67c00a000541000e51675b9b1dd2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anteriorly located pelvic fin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/300a67bf0a000541000e5167b320c5df"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dce0a000541000e5167dd1d4dac#has_specified_output"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/2fd18dd00a000541000e51676e747e5c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/300a67c00a000541000e5167c5e998e5 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/300a67c00a000541000e5167c5e998e5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Posteriorly located pelvic fin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/300a67bf0a000541000e5167b320c5df"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/34dec5ba0a0005410026c7daedb531de -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/34dec5ba0a0005410026c7daedb531de">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Development Process</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.3-SNAPSHOT) http://owlapi.sourceforge.net -->
+
