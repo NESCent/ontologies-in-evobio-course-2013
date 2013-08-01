@@ -1,0 +1,646 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+]>
+
+
+<rdf:RDF xmlns="http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f#"
+     xml:base="http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f">
+        <owl:imports rdf:resource="&obo;vo/external/ENVO_import_1d.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/envo#has_condition -->
+
+    <owl:ObjectProperty rdf:about="&obo;envo#has_condition">
+        <rdfs:label xml:lang="en">has_condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f#located_in -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f#located_in"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f#part_of"/>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f#surrounded_by -->
+
+    <owl:ObjectProperty rdf:about="http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f#surrounded_by"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000446 -->
+
+    <rdf:Description rdf:about="&obo;ENVO_00000446">
+        <owl:disjointWith rdf:resource="&obo;ENVO_00002030"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002030 -->
+
+    <rdf:Description rdf:about="&obo;ENVO_00002030">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;ENVO_00000428"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f#located_in"/>
+                        <owl:someValuesFrom rdf:resource="&obo;ENVO_00000063"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000179 -->
+
+    <rdf:Description rdf:about="&obo;ENVO_01000179">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;ENVO_00000446"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;envo#has_condition"/>
+                        <owl:someValuesFrom rdf:resource="&obo;TO_6000003"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;envo#has_condition"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref>Marshak, Stephen (2009) Essentials of Geology, 3rd ed., W. W. Norton &amp; Company, p. 452, ISBN 0393196569.</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;ENVO_01000179"/>
+        <owl:annotatedProperty rdf:resource="&owl;equivalentClass"/>
+        <owl:annotatedTarget>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;ENVO_00000446"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;envo#has_condition"/>
+                        <owl:someValuesFrom rdf:resource="&obo;TO_6000003"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:annotatedTarget>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_6000000 -->
+
+    <owl:Class rdf:about="&obo;TO_6000000">
+        <rdfs:label xml:lang="en">climate measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_6000001 -->
+
+    <owl:Class rdf:about="&obo;TO_6000001">
+        <rdfs:label xml:lang="en">annual rainfall</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TO_6000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_6000002 -->
+
+    <owl:Class rdf:about="&obo;TO_6000002">
+        <rdfs:label xml:lang="en">temperature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TO_6000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_6000003 -->
+
+    <owl:Class rdf:about="&obo;TO_6000003">
+        <rdfs:label xml:lang="en">lowest rainfall</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TO_6000001"/>
+        <obo:IAO_0000115>less than 250 millimetres (10 in) of rain (precipitation) each year</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_6000004 -->
+
+    <owl:Class rdf:about="&obo;TO_6000004">
+        <rdfs:label xml:lang="en">low rainfall</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TO_6000001"/>
+        <obo:IAO_0000115>Between 250 millimetres (10 in) and 500 millimetres (16 to 20 in) of rain (precipitation) each year</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fb3e3610a00051f00abc3104b5740ef -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fb3e3610a00051f00abc3104b5740ef">
+        <rdfs:label rdf:datatype="&xsd;string">bog_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002036"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/2fd161ae0a00051f00abc310ca9b97be -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/2fd161ae0a00051f00abc310ca9b97be">
+        <rdfs:label rdf:datatype="&xsd;string">cranberry bog</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/2fb3e3610a00051f00abc3104b5740ef"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31efa66cc0a8016501c7921e974c1631 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31efa66cc0a8016501c7921e974c1631">
+        <rdfs:label rdf:datatype="&xsd;string">merriam_life_zone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921e614a677f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921e614a677f">
+        <rdfs:label rdf:datatype="&xsd;string">hudsonsian_zone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31efa66cc0a8016501c7921e974c1631"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921edc9b66eb"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921e66f6fad1 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921e66f6fad1">
+        <rdfs:label rdf:datatype="&xsd;string">upper_sonoran_zone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31efa66cc0a8016501c7921e974c1631"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921e6f0d986c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921e6f0d986c">
+        <rdfs:label rdf:datatype="&xsd;string">arctic-alpine_zone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31efa66cc0a8016501c7921e974c1631"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921ed8ba294c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921ed8ba294c">
+        <rdfs:label rdf:datatype="&xsd;string">transition_zone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31efa66cc0a8016501c7921e974c1631"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921edc9b66eb -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921edc9b66eb">
+        <rdfs:label rdf:datatype="&xsd;string">boreal_zone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31efa66cc0a8016501c7921e974c1631"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921ef2ed0de3 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921ef2ed0de3">
+        <rdfs:label rdf:datatype="&xsd;string">canadian_zone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31efa66cc0a8016501c7921e974c1631"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921edc9b66eb"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/31efa66ec0a8016501c7921ea0aa21e7 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/31efa66ec0a8016501c7921ea0aa21e7">
+        <rdfs:label rdf:datatype="&xsd;string">lower_sonoran_zone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31efa66cc0a8016501c7921e974c1631"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/321fa2a6c0a8016501c7921e0ab1a056 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/321fa2a6c0a8016501c7921e0ab1a056">
+        <rdfs:label rdf:datatype="&xsd;string">temperate_mixed_forest_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/325e93a6c0a8016501c7921ef0edb04a"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32261abac0a8016501c7921ec417234f -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32261abac0a8016501c7921ec417234f">
+        <rdfs:label rdf:datatype="&xsd;string">chaparral_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32261abbc0a8016501c7921eb94362df -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32261abbc0a8016501c7921eb94362df">
+        <rdfs:label rdf:datatype="&xsd;string">canyon_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32261abbc0a8016501c7921ee4a236e5 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32261abbc0a8016501c7921ee4a236e5">
+        <rdfs:label rdf:datatype="&xsd;string">coastal_dune_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3266a0b7c0a8016501c7921e5cafc550"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/323642d2c0a8016501c7921e1f68166e -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/323642d2c0a8016501c7921e1f68166e">
+        <rdfs:label rdf:datatype="&xsd;string">tallgrass_prairie_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/323642d2c0a8016501c7921eed559b15"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/323642d2c0a8016501c7921eed559b15 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/323642d2c0a8016501c7921eed559b15">
+        <rdfs:label rdf:datatype="&xsd;string">prairie_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3279c7d2c0a8016501c7921ebc5d8649"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/323d8d82c0a8016501c7921e58a1f8f1 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/323d8d82c0a8016501c7921e58a1f8f1">
+        <rdfs:label rdf:datatype="&xsd;string">subtropical_woodland_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/323efe4ac0a8016501c7921e142a1947 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/323efe4ac0a8016501c7921e142a1947">
+        <rdfs:label rdf:datatype="&xsd;string">stream_valley_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32410a56c0a8016501c7921e207cd3de -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32410a56c0a8016501c7921e207cd3de">
+        <rdfs:label rdf:datatype="&xsd;string">arctic_tundra_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32410a56c0a8016501c7921e363b4155"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/32459390c0a8016501c7921e1844d6a4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32410a56c0a8016501c7921e363b4155 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32410a56c0a8016501c7921e363b4155">
+        <rdfs:label rdf:datatype="&xsd;string">tundra_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32410a56c0a8016501c7921ed7264278 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32410a56c0a8016501c7921ed7264278">
+        <rdfs:label rdf:datatype="&xsd;string">alpine_tundra_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/32410a56c0a8016501c7921e363b4155"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/32459390c0a8016501c7921e87a4e229"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32459390c0a8016501c7921e1844d6a4 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32459390c0a8016501c7921e1844d6a4">
+        <rdfs:label rdf:datatype="&xsd;string">arctic_zone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31efa66cc0a8016501c7921e974c1631"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921e6f0d986c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/32459390c0a8016501c7921e87a4e229 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32459390c0a8016501c7921e87a4e229">
+        <rdfs:label rdf:datatype="&xsd;string">alpine_zone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31efa66cc0a8016501c7921e974c1631"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/31efa66dc0a8016501c7921e6f0d986c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/325e93a5c0a8016501c7921e9703564c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/325e93a5c0a8016501c7921e9703564c">
+        <rdfs:label rdf:datatype="&xsd;string">forest_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/325e93a6c0a8016501c7921e40c9d63c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/325e93a6c0a8016501c7921e40c9d63c">
+        <rdfs:label rdf:datatype="&xsd;string">boreal_forest_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/325e93aac0a8016501c7921e27dafdb2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/325e93a6c0a8016501c7921ef0edb04a -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/325e93a6c0a8016501c7921ef0edb04a">
+        <rdfs:label rdf:datatype="&xsd;string">mixed_forest_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/325e93a5c0a8016501c7921e9703564c"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/325e93a7c0a8016501c7921e9921cef8 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/325e93a7c0a8016501c7921e9921cef8">
+        <rdfs:label rdf:datatype="&xsd;string">subantarctic_forest_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/325e93a7c0a8016501c7921ed479c5e6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/325e93a7c0a8016501c7921ed479c5e6 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/325e93a7c0a8016501c7921ed479c5e6">
+        <rdfs:label rdf:datatype="&xsd;string">subpolar_forest_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/325e93a5c0a8016501c7921e9703564c"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/325e93a7c0a8016501c7921eeec62304 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/325e93a7c0a8016501c7921eeec62304">
+        <rdfs:label rdf:datatype="&xsd;string">subantarctic_forest_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/325e93a7c0a8016501c7921ed479c5e6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/325e93a8c0a8016501c7921e091f8880 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/325e93a8c0a8016501c7921e091f8880">
+        <rdfs:label rdf:datatype="&xsd;string">subtropical_broadleaf_forest_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/325e93a9c0a8016501c7921e2936ead0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/325e93a8c0a8016501c7921ec1de4187 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/325e93a8c0a8016501c7921ec1de4187">
+        <rdfs:label rdf:datatype="&xsd;string">temperate_broadleaf_forest_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/325e93a9c0a8016501c7921e2936ead0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/325e93a8c0a8016501c7921ef1c2b873 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/325e93a8c0a8016501c7921ef1c2b873">
+        <rdfs:label rdf:datatype="&xsd;string">tropical_broadleaf_forest_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/325e93a9c0a8016501c7921e2936ead0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/325e93a9c0a8016501c7921e2936ead0 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/325e93a9c0a8016501c7921e2936ead0">
+        <rdfs:label rdf:datatype="&xsd;string">broadleaf_forest_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/325e93a5c0a8016501c7921e9703564c"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/325e93a9c0a8016501c7921e5f9b9b2b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/325e93a9c0a8016501c7921e5f9b9b2b">
+        <rdfs:label rdf:datatype="&xsd;string">temperate_coniferous_forest_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/325e93aac0a8016501c7921e27dafdb2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/325e93aac0a8016501c7921e27dafdb2 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/325e93aac0a8016501c7921e27dafdb2">
+        <rdfs:label rdf:datatype="&xsd;string">coniferous_forest_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/325e93a5c0a8016501c7921e9703564c"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/325e93aac0a8016501c7921e46d24687 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/325e93aac0a8016501c7921e46d24687">
+        <rdfs:label rdf:datatype="&xsd;string">tropical_coniferous_forest_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/325e93aac0a8016501c7921e27dafdb2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/325e93aac0a8016501c7921e9ecef73c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/325e93aac0a8016501c7921e9ecef73c">
+        <rdfs:label rdf:datatype="&xsd;string">subtropical_coniferous_forest_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/325e93aac0a8016501c7921e27dafdb2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3266a0b7c0a8016501c7921e5cafc550 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3266a0b7c0a8016501c7921e5cafc550">
+        <rdfs:label rdf:datatype="&xsd;string">dune_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/326d7cf2c0a8016501c7921e45749d3b -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/326d7cf2c0a8016501c7921e45749d3b">
+        <rdfs:label rdf:datatype="&xsd;string">forest_clearing_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f#surrounded_by"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/325e93a5c0a8016501c7921e9703564c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3271da33c0a8016501c7921ec3140ba5 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3271da33c0a8016501c7921ec3140ba5">
+        <rdfs:label rdf:datatype="&xsd;string">grassland_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/3279c7d2c0a8016501c7921ebc5d8649 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/3279c7d2c0a8016501c7921ebc5d8649">
+        <rdfs:label rdf:datatype="&xsd;string">temperate_grassland_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3271da33c0a8016501c7921ec3140ba5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/327c42c9c0a8016501c7921e72f867aa -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/327c42c9c0a8016501c7921e72f867aa">
+        <rdfs:label rdf:datatype="&xsd;string">desert_grassland_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3271da33c0a8016501c7921ec3140ba5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/327feef1c0a8016501c7921e3b8a573c -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/327feef1c0a8016501c7921e3b8a573c">
+        <rdfs:label rdf:datatype="&xsd;string">meadow_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/3271da33c0a8016501c7921ec3140ba5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/327feef1c0a8016501c7921ebf568ebb -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/327feef1c0a8016501c7921ebf568ebb">
+        <rdfs:label rdf:datatype="&xsd;string">wet_meadow_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/327feef1c0a8016501c7921e3b8a573c"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/327feef1c0a8016501c7921ee5f81211 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/327feef1c0a8016501c7921ee5f81211">
+        <rdfs:label rdf:datatype="&xsd;string">moist_meadow_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/327feef1c0a8016501c7921e3b8a573c"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vue.tufts.edu/rdf/resource/327feef2c0a8016501c7921ebad55783 -->
+
+    <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/327feef2c0a8016501c7921ebad55783">
+        <rdfs:label rdf:datatype="&xsd;string">alpine_meadow_habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/327feef1c0a8016501c7921e3b8a573c"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
