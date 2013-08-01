@@ -1,0 +1,38 @@
+= Evaluating Ontologies =
+
+There are various community resources that outline best practices/principles for creating bio-ontologies, perhaps most notably are those relating to OBO Foundry membership requirements.  These are enumerated here http://obofoundry.org/wiki/index.php/Category:Accepted.  Making a commitment to use, build, or contribute to an ontology is a big decision.  It is therefore important to be able to access what's out there, and what the present state of an existing ontology is in.  Here we look at a small number of ontologies that serve different purposes and are at different periods of their development.  
+
+(AS A GROUP): Biological Collections Ontologies: http://purl.obolibrary.org/obo/bco.owl 
+Evidence Codes Ontology: http://purl.obolibrary.org/obo/eco.owl
+Drosophila Gross Anatomy Ontology: http://purl.obolibrary.org/obo/fbbt.owl
+Uberon: http://purl.obolibrary.org/obo/uberon/ext.owl
+
+To start, for each of the following ontologies assess the following questions.  In particular think about contrasting the age of the ontology with the present state of its content/metadata.  Can you draw any general conclusions?
+
+Community
+
+* When was this ontology first made publicly available?
+* When was this ontology last active? 
+* How can a user contribute to this ontology?  
+* Are there standards specific to contributing to this ontology? 
+* Is there documentation for the ontology?
+
+Metadata
+
+* What is the role of this ontology?  Is it a reference ontology? Designed for a specific application? Integrative?
+* At what stage of development is this ontology in?  How can you tell?
+* How is this ontology linked to other ontologies? Does it use OWL imports or Mireot? 
+  * Hint use View->Show Only The Active Ontology
+* How many people have contributed to this ontology? Can this even be determined?
+
+Content
+
+* Does this ontology take a top-down or bottom up approach to organizing it's content?
+* What domains does this ontology cover?  Who is seeking to serve?
+* Does this ontology provide object properties?  How many?
+
+To conclude, choose one other other ontology and log your choice in the spreadsheet here: http://bit.ly/16iu0Iw (Evaluating Ontologies Metadata Survey).  Please don't repeat an ontology.  Assess the ontology based on the criteria above, then, to conclude, find, and log the metadata for the columns listed in the log spreadsheet.  When everyone is complete we'll plot these numbers and see if there are any "trends".
+
+Hints: - Use a site like http://www.convertunits.com/dates/ to calculate the age of the ontology in days.
+       - Much of the metadata requested in the log can be found at one or more ontology aggregating sites.
+

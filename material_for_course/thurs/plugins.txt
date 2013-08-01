@@ -1,0 +1,35 @@
+== Protege Plugins ==
+
+To find out more about Protege plugins go here:
+
+See http://protege.stanford.edu/plugins/owl/ontologies.html
+
+=== Installing ===
+
+See the link above.  In brief, you can install directly from within Protege (through Preferences, then the Plugins tab), or you can copy a plugin file (a .jar) to your plugins folder. 
+
+That folder, in windows, is located somewhere like
+
+c:/Program Files (x86)/Protege_4.3/plugins 
+
+On a Mac it's in the applications folder, typically something like:
+
+/Applications/Protege-4.3.app/Contents/Resources/Java/plugins
+
+On a mac right-click->show package contents to navigate down into the plugins folder and drop the .jar flie into that folder. 
+
+== Specifics for this Course ==
+
+Elk 4.0 - http://code.google.com/p/elk-reasoner/downloads/list    
+
+Image Depictions - https://github.com/balhoff/image-depictions-view/downloads
+
+Entity URI (URI Tools) -> built in
+
+annotation search plugin -> https://code.google.com/p/co-ode-owl-plugins/downloads/list?can=2&q=annotation+search+view
+
+
+
+
+
+
