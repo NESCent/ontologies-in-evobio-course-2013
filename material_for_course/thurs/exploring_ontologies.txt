@@ -10,14 +10,9 @@ As we go through the ontologies keep in mind the following question:
 
 * What need is this ontology addressing? Remember, it takes a lot of time and effort to build ontologies, they should address a need.
 
-
-(MH) I think we can answer these same questions for each:
 - what: What do the classes representing reality? 
 - how: How are the classes and properties, or ontology as a whole, intended to be used?
 - who: Who is this ontology designed for?
-
-
-
 
 == Upper Level Ontologies ==
 
@@ -43,7 +38,6 @@ PATO
 Spatial
 
 *gotchas: funny ontology - these are modifiers for anatomical terms, and a lot of properties
-
 
 == Nomenclature and Names ==
 
