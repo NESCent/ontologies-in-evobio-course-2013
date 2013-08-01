@@ -263,6 +263,26 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_6000000 -->
+
+    <owl:ObjectProperty rdf:about="&obo;GO_6000000">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">part_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -384,16 +404,16 @@
         <oboInOwl:inSubset rdf:resource="&obo;test/chromosome-parts#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198506732</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="&xsd;string">The living contents of a cell; the matter contained within (but not including) the plasma membrane, usually taken to exclude large vacuoles and masses of secretory or ingested material. In eukaryotes it includes the nucleus and cytoplasm.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;GO_0005622"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:mah</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="&xsd;string">protoplast</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;GO_0005622"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198506732</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The living contents of a cell; the matter contained within (but not including) the plasma membrane, usually taken to exclude large vacuoles and masses of secretory or ingested material. In eukaryotes it includes the nucleus and cytoplasm.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0005622"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:mah</oboInOwl:hasDbXref>
@@ -467,6 +487,7 @@
     <owl:Class rdf:about="&obo;GO_0043226">
         <rdfs:label rdf:datatype="&xsd;string">organelle</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0005575"/>
+        <owl:disjointWith rdf:resource="&obo;GO_0044422"/>
         <oboInOwl:id rdf:datatype="&xsd;string">GO:0043226</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NIF_Subcellular:sao1539965131</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Organized structure of distinctive morphology and function. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton, and prokaryotic structures such as anammoxosomes and pirellulosomes. Excludes the plasma membrane.</obo:IAO_0000115>
@@ -532,6 +553,12 @@
     <owl:Class rdf:about="&obo;GO_0044422">
         <rdfs:label rdf:datatype="&xsd;string">organelle part</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0005575"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;GO_6000000"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0043226"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Any constituent part of an organelle, an organized structure of distinctive morphology and function. Includes constituent parts of the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton, but excludes the plasma membrane.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">GO:0044422</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">cellular_component</oboInOwl:hasOBONamespace>
@@ -551,6 +578,12 @@
     <owl:Class rdf:about="&obo;GO_0044424">
         <rdfs:label rdf:datatype="&xsd;string">intracellular part</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0044464"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;GO_6000000"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005622"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Any constituent part of the living contents of a cell; the matter contained within (but not including) the plasma membrane, usually taken to exclude large vacuoles and masses of secretory or ingested material. In eukaryotes it includes the nucleus and cytoplasm.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">GO:0044424</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">cellular_component</oboInOwl:hasOBONamespace>
@@ -591,8 +624,13 @@
 
     <owl:Class rdf:about="&obo;GO_0044446">
         <rdfs:label rdf:datatype="&xsd;string">intracellular organelle part</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;GO_0043226"/>
         <rdfs:subClassOf rdf:resource="&obo;GO_0044422"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;GO_6000000"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0043229"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A constituent part of an intracellular organelle, an organized structure of distinctive morphology and function, occurring within the cell. Includes constituent parts of the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton but excludes the plasma membrane.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">GO:0044446</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">cellular_component</oboInOwl:hasOBONamespace>
@@ -612,6 +650,12 @@
     <owl:Class rdf:about="&obo;GO_0044464">
         <rdfs:label rdf:datatype="&xsd;string">cell part</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0005575"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;GO_6000000"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005623"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Any constituent part of a cell, the basic structural and functional unit of all organisms.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">GO:0044464</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">cellular_component</oboInOwl:hasOBONamespace>
