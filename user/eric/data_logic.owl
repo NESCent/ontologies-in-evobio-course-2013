@@ -89,6 +89,42 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_6000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_6000000">
+        <rdfs:label xml:lang="en">Hypothesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31b0027fc0a80a6c007744b23ed4ffd8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_6000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_6000001">
+        <rdfs:label xml:lang="en">Gene Subfunctionalization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_6000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_6000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_6000002">
+        <rdfs:label xml:lang="en">Gene Neofunctionalization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_6000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_6000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_6000003">
+        <rdfs:label xml:lang="en">Gene Pseudogenization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_6000000"/>
+    </owl:Class>
+    
+
+
     <!-- http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cdd86b056a -->
 
     <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cdd86b056a">
@@ -112,14 +148,14 @@
         <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe20a000521014ab7cdc6e65c21"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#depends_on"/>
-                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3275e0e8c0a80a6c007744b286ad54ea"/>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3275e0ebc0a80a6c007744b221cc6848"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3275e0ebc0a80a6c007744b221cc6848"/>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#depends_on"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3275e0e8c0a80a6c007744b286ad54ea"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -197,14 +233,14 @@
         <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31b4b4f5c0a80a6c007744b2c0118664"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#starts"/>
-                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/30fcdabb0a000521014ab7cd9863b887"/>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#result_in"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe40a000521014ab7cd4c0955a8"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#result_in"/>
-                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe40a000521014ab7cd4c0955a8"/>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#starts"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/30fcdabb0a000521014ab7cd9863b887"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -271,13 +307,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#result_in"/>
-                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe40a000521014ab7cd4c0955a8"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe30a000521014ab7cd6728be72"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#result_in"/>
-                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe30a000521014ab7cd6728be72"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe40a000521014ab7cd4c0955a8"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -412,14 +448,14 @@
         <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31b0027fc0a80a6c007744b2b3fa0a74"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#describe"/>
-                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3275e0ebc0a80a6c007744b221cc6848"/>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#depends_on"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3275e0ecc0a80a6c007744b2dce9812d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#depends_on"/>
-                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3275e0ecc0a80a6c007744b2dce9812d"/>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#describe"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3275e0ebc0a80a6c007744b221cc6848"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -490,12 +526,6 @@
         <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31b0027fc0a80a6c007744b2b3fa0a74"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#describe"/>
-                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3275e0ebc0a80a6c007744b221cc6848"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#input_to"/>
                 <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/32fd0c21c0a80a680185d6e8de0ba249"/>
             </owl:Restriction>
@@ -504,6 +534,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#part_of"/>
                 <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/32ab55e3c0a80a6c007744b236cf11ae"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#describe"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/3275e0ebc0a80a6c007744b221cc6848"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -517,14 +553,14 @@
         <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31b0027fc0a80a6c007744b2b3fa0a74"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#infer"/>
-                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/32ab55ddc0a80a6c007744b25a53e3ef"/>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#describe"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/32ab55e3c0a80a6c007744b236cf11ae"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#describe"/>
-                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/32ab55e3c0a80a6c007744b236cf11ae"/>
+                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#infer"/>
+                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/32ab55ddc0a80a6c007744b25a53e3ef"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -649,7 +685,7 @@
 
     <owl:Class rdf:about="http://vue.tufts.edu/rdf/resource/32fd0c21c0a80a680185d6e8de0ba249">
         <rdfs:label rdf:datatype="&xsd;string">Gene Balance Hypothesis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://vue.tufts.edu/rdf/resource/31b0027fc0a80a6c007744b23ed4ffd8"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_6000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#describe"/>
@@ -660,12 +696,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#describe"/>
                 <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/32ab55e3c0a80a6c007744b2514b65ea"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vue.tufts.edu/rdf/resource/304aabe10a000521014ab7cd2253cd3e#result_in"/>
-                <owl:someValuesFrom rdf:resource="http://vue.tufts.edu/rdf/resource/32ab55e4c0a80a6c007744b2808b9d2a"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
