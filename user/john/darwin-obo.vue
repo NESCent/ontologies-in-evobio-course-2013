@@ -1,14 +1,14 @@
-<!-- Tufts VUE 3.2.2 concept-map (darwin-obo.vue) 2013-07-31 -->
+<!-- Tufts VUE 3.2.2 concept-map (darwin-obo.vue) 2013-08-01 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Wed Jul 31 18:31:11 GMT-03:00 2013 by tuco on platform Mac OS X 10.6.8 in JVM 1.6.0_45-b06-451-10M4406 -->
+<!-- Do Not Remove: Saved date Thu Aug 01 10:10:25 GMT-03:00 2013 by tuco on platform Mac OS X 10.6.8 in JVM 1.6.0_45-b06-451-10M4406 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0" label="darwin-obo.vue"
     created="1375188734432" x="0.0" y="0.0" width="1.4E-45"
     height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1375306271880" size="23279"
+    <resource referenceCreated="1375362625770" size="20607"
         spec="/Users/tuco/Projects/NESCent/src/nescent-anatomy-course/user/john/darwin-obo.vue"
         type="1" xsi:type="URLResource">
         <title>darwin-obo.vue</title>
@@ -303,10 +303,9 @@
         <ID1 xsi:type="node">16</ID1>
         <ID2 xsi:type="node">36</ID2>
     </child>
-    <child ID="39" label="&#xa;" layerID="1" created="1375206256970"
-        x="-4.3463354" y="22.0" width="250.49533" height="104.26196"
-        strokeWidth="1.0" autoSized="false" controlCount="1"
-        arrowState="2" xsi:type="link">
+    <child ID="39" layerID="1" created="1375206256970" x="-4.3463354"
+        y="22.0" width="250.49533" height="104.26196" strokeWidth="1.0"
+        autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
