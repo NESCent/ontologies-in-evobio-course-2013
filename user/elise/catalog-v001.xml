@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1375387686061" name="http://purl.obolibrary.org/obo/test/chromosome-parts.owl" uri="chromosome-parts-interim-el.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1375387686061" name="duplicate:http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f" uri="Butterfly_Habitats.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1375387686061" name="duplicate:http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f" uri="Butterfly_LH.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1375387686061" name="duplicate:http://vue.tufts.edu/rdf/resource/2da46411c0a8016501b063b397f57b7f" uri="Lep_Ontology_0730b.owl"/>
+    </group>
+</catalog>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1375389744547" name="http://vue.tufts.edu/rdf/resource/318a45630a00052400add13564a7f92e" uri="MAH_Muscles.owl"/>
+    </group>
+</catalog>

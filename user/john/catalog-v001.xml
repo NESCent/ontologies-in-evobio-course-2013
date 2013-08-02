@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1375385799065" name="http://purl.obolibrary.org/obo/test/chromosome-parts.owl" uri="chromosome_parts.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1375385799065" name="http://vue.tufts.edu/rdf/resource/2bb4bdd10a00051f016fd60297da31dc" uri="MondayVueMap1je.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1375385799065" name="duplicate:http://vue.tufts.edu/rdf/resource/2fab41b80a000529000e54f3f70c431c" uri="darwin-obo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1375385799065" name="duplicate:http://vue.tufts.edu/rdf/resource/2fab41b80a000529000e54f3f70c431c" uri="darwinsw.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1375385799065" name="duplicate:http://vue.tufts.edu/rdf/resource/2fab41b80a000529000e54f3f70c431c" uri="simpledwc.owl"/>
+    </group>
+</catalog>
