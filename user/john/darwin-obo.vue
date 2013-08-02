@@ -1,14 +1,14 @@
-<!-- Tufts VUE 3.2.2 concept-map (darwin-obo.vue) 2013-08-01 -->
+<!-- Tufts VUE 3.2.2 concept-map (darwin-obo.vue) 2013-08-02 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Thu Aug 01 10:10:25 GMT-03:00 2013 by tuco on platform Mac OS X 10.6.8 in JVM 1.6.0_45-b06-451-10M4406 -->
+<!-- Do Not Remove: Saved date Fri Aug 02 11:38:14 GMT-03:00 2013 by tuco on platform Mac OS X 10.6.8 in JVM 1.6.0_45-b06-451-10M4406 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0" label="darwin-obo.vue"
     created="1375188734432" x="0.0" y="0.0" width="1.4E-45"
     height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1375362625770" size="20607"
+    <resource referenceCreated="1375454294086" size="20585"
         spec="/Users/tuco/Projects/NESCent/src/nescent-anatomy-course/user/john/darwin-obo.vue"
         type="1" xsi:type="URLResource">
         <title>darwin-obo.vue</title>
@@ -329,12 +329,72 @@
         <ID1 xsi:type="node">16</ID1>
         <ID2 xsi:type="node">7</ID2>
     </child>
+    <child ID="43"
+        label="Imports from:&#xa;    &#xa;    &#xa;      BFO - Basic Formal Ontology&#xa;    &#xa;    &#xa;      ENVO - Environmental Ontology&#xa;    &#xa;    &#xa;      IAO - Information Artifact Ontology&#xa;    &#xa;    &#xa;      EFO - Experimental Factors Ontology&#xa;    &#xa;    &#xa;      OBOE - Extensible Observation Ontology"
+        layerID="1" created="1375450674369" x="-82.416664"
+        y="-193.09999" width="224.0" height="93.0" strokeWidth="0.0"
+        autoSized="false" xsi:type="text">
+        <strokeColor>#404040</strokeColor>
+        <textColor>#000000</textColor>
+        <font>SansSerif-plain-14</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/3f76f06d0a000529000e54f3f832e1de</URIString>
+        <richText>&lt;html&gt;
+  &lt;head color="#000000" style="color: #000000"&gt;
+    &lt;style type="text/css"&gt;
+      &lt;!--
+        body { font-family: Arial; margin-right: 0px; margin-top: 0px; font-size: 11; margin-left: 0px; color: #000000; margin-bottom: 0px }
+        ol { font-family: Arial; vertical-align: middle; margin-top: 6; font-size: 11; margin-left: 30; list-style-position: outside }
+        p { margin-right: 0; margin-top: 0; margin-left: 0; color: #000000; margin-bottom: 0 }
+        ul { font-family: Arial; vertical-align: middle; margin-top: 6; font-size: 11; margin-left: 30; list-style-position: outside }
+      --&gt;
+    &lt;/style&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      Imports from:
+    &lt;/p&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      BFO - Basic Formal Ontology
+    &lt;/p&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      ENVO - Environmental Ontology
+    &lt;/p&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      IAO - Information Artifact Ontology
+    &lt;/p&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      EFO - Experimental Factors Ontology
+    &lt;/p&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      OBOE - Extensible Observation Ontology
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</richText>
+        <label>Imports from:
+    
+    
+      BFO - Basic Formal Ontology
+    
+    
+      ENVO - Environmental Ontology
+    
+    
+      IAO - Information Artifact Ontology
+    
+    
+      EFO - Experimental Factors Ontology
+    
+    
+      OBOE - Extensible Observation Ontology</label>
+    </child>
     <layer ID="1" label="Layer 1" created="1375188734452" x="0.0"
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/2fab41d10a000529000e54f3b2b3448d</URIString>
     </layer>
-    <userZoom>1.0</userZoom>
-    <userOrigin x="-1092.25" y="-327.5"/>
+    <userZoom>1.5</userZoom>
+    <userOrigin x="-196.625" y="-349.65"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1375188734424"

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/caro/dev/NCBITaxon_import.owl" uri="NCBItaxon_imports.owl"/>
-    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=1" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1342128681268" name="http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl" uri="ontology-metadata.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1342128681268" name="http://purl.obolibrary.org/obo/caro/dev/PATO_import.owl" uri="PATO_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1342128681268" name="http://purl.obolibrary.org/obo/ro_imports.owl" uri="ro_imports.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1342131154983" name="http://purl.obolibrary.org/obo/caro/dev/CL_import.owl" uri="CL_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1342131154983" name="http://purl.obolibrary.org/obo/caro/dev/NCBITaxon_import.owl" uri="NCBItaxon_imports.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1342137321095" name="http://purl.obolibrary.org/obo/GO_imports.owl" uri="GO_imports.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1342137321095" name="http://purl.obolibrary.org/obo/ro.owl" uri="ro.owl"/>
+    <group id="Folder Repository, directory=file:/Users/tuco/Projects/NESCent/src/nescent-anatomy-course/material_for_course/thurs/imports_excercise/caro_2/imports/, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1375377270145" name="http://purl.obolibrary.org/obo/caro/dev/CL_import.owl" uri="CL_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1375377270145" name="http://purl.obolibrary.org/obo/caro/dev/GO_imports.owl" uri="GO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1375377270145" name="http://purl.obolibrary.org/obo/caro/dev/NCBITaxon_import.owl" uri="NCBItaxon_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1375377270145" name="http://purl.obolibrary.org/obo/caro/dev/PATO_import.owl" uri="PATO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1375377270145" name="http://purl.obolibrary.org/obo/caro/dev/PCO_imports.owl" uri="PCO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1375377270145" name="http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl" uri="ontology-metadata.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1375377270145" name="http://purl.obolibrary.org/obo/ro.owl" uri="ro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1375377270145" name="http://purl.obolibrary.org/obo/ro_imports.owl" uri="ro_imports.owl"/>
     </group>
 </catalog>

@@ -1,14 +1,14 @@
-<!-- Tufts VUE 3.2.2 concept-map (darwinsw.vue) 2013-07-30 -->
+<!-- Tufts VUE 3.2.2 concept-map (darwinsw.vue) 2013-08-02 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Tue Jul 30 13:02:14 GMT-03:00 2013 by tuco on platform Mac OS X 10.6.8 in JVM 1.6.0_45-b06-451-10M4406 -->
+<!-- Do Not Remove: Saved date Fri Aug 02 11:38:18 GMT-03:00 2013 by tuco on platform Mac OS X 10.6.8 in JVM 1.6.0_45-b06-451-10M4406 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0" label="darwinsw.vue"
     created="1375188734432" x="0.0" y="0.0" width="1.4E-45"
     height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1375200134374" size="16980"
+    <resource referenceCreated="1375454298410" size="16963"
         spec="/Users/tuco/Projects/NESCent/src/nescent-anatomy-course/user/john/darwinsw.vue"
         type="1" xsi:type="URLResource">
         <title>darwinsw.vue</title>
@@ -258,12 +258,40 @@
         <ID2 xsi:type="node">18</ID2>
         <ctrlPoint0 x="294.5" y="26.5" xsi:type="point"/>
     </child>
+    <child ID="29" label="New Text" layerID="1" created="1375451433148"
+        x="109.08334" y="-150.0" width="150.0" height="15.0"
+        strokeWidth="0.0" autoSized="false" xsi:type="text">
+        <strokeColor>#404040</strokeColor>
+        <textColor>#000000</textColor>
+        <font>SansSerif-plain-14</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/3f7701d70a000529000e54f33c268d24</URIString>
+        <richText>&lt;html&gt;
+  &lt;head color="#000000" style="color: #000000"&gt;
+    &lt;style type="text/css"&gt;
+      &lt;!--
+        body { font-family: Arial; margin-right: 0px; margin-top: 0px; font-size: 11; margin-left: 0px; color: #000000; margin-bottom: 0px }
+        ol { font-family: Arial; vertical-align: middle; margin-top: 6; font-size: 11; margin-left: 30; list-style-position: outside }
+        p { margin-right: 0; margin-top: 0; margin-left: 0; color: #000000; margin-bottom: 0 }
+        ul { font-family: Arial; vertical-align: middle; margin-top: 6; font-size: 11; margin-left: 30; list-style-position: outside }
+      --&gt;
+    &lt;/style&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      Darwin-SW
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</richText>
+        <label>New Text</label>
+    </child>
     <layer ID="1" label="Layer 1" created="1375188734452" x="0.0"
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/2fab41d10a000529000e54f3b2b3448d</URIString>
     </layer>
-    <userZoom>1.0</userZoom>
-    <userOrigin x="-28.5" y="-871.5"/>
+    <userZoom>2.0</userZoom>
+    <userOrigin x="152.16669" y="-352.0"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1375188734424"
