@@ -12,22 +12,15 @@ As we go through the ontologies keep in mind the following question:
 - how: How are the classes and properties, or ontology as a whole, intended to be used?
 - who: Who is this ontology designed for?
 
-miami
-
-uberon, pato, go, oboe, 
-
 == Upper Level Ontologies ==
 
 CARO
 * gotchas: two versions, new version not very visible, old version very old
-* 
 
 CDAO
-*
 
 BFO
 * gotchas: two versions, new version very complex
-* 
 
 Evidence code ontology (EVO)
 * gotchas: conflation of evidence with assays, results, and other investigative techniques. Poor inferred classification makes it difficult to choose correct EC.
@@ -48,7 +41,7 @@ PATO
 
 Spatial
 
-*gotchas: funny ontology - these are modifiers for anatomical terms, and a lot of properties
+* gotchas: funny ontology - these are modifiers for anatomical terms, and a lot of properties
 
 == Nomenclature and Names ==
 
@@ -109,6 +102,5 @@ CARO
 * a google code project
 * caro-dev -> caro.owl -> imports .... many different ontologies
 * defining some anatomical entity 
-*  
-* 
+* everything that is done here affects every ontology that uses it 
 
